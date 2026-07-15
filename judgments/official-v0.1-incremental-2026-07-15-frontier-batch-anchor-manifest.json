@@ -1,0 +1,41 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "update": "2026-07-15 frontier model batch",
+  "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+  "new_models": [
+    "openai/gpt-5.6-sol-pro",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra-pro",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-luna-pro",
+    "openai/gpt-5.6-luna",
+    "x-ai/grok-4.5"
+  ],
+  "anchor_policy": "Broad fixed anchor set spanning top, middle, bottom, and provider-adjacent OpenAI/xAI predecessors.",
+  "anchors": [
+    "sakana/fugu-ultra",
+    "openai/gpt-5.5",
+    "qwen/qwen3.6-plus",
+    "google/gemini-3.5-flash",
+    "google/gemini-3-flash-preview",
+    "openai/gpt-5-pro",
+    "openai/gpt-5-codex",
+    "openai/gpt-5.4-pro",
+    "openai/gpt-5.4",
+    "openai/gpt-5",
+    "openai/gpt-5-mini",
+    "openai/gpt-5-nano",
+    "x-ai/grok-4.20-multi-agent",
+    "x-ai/grok-4.20",
+    "x-ai/grok-4.3",
+    "anthropic/claude-fable-5",
+    "anthropic/claude-sonnet-5",
+    "mistralai/mistral-small-2603",
+    "qwen/qwen3-vl-8b-instruct",
+    "rekaai/reka-edge"
+  ],
+  "pair_limit": 161,
+  "judge_calls": 483
+}

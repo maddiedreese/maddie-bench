@@ -1,0 +1,48 @@
+{
+  "runId": "official-v0.1-incremental-2026-07-15-frontier-batch",
+  "concurrency": 4,
+  "results": [
+    {
+      "model": "openai/gpt-5.6-sol-pro",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-sol-pro/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "openai/gpt-5.6-sol",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-sol/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "openai/gpt-5.6-terra-pro",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-terra-pro/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "openai/gpt-5.6-terra",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-terra/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "openai/gpt-5.6-luna-pro",
+      "status": "completed",
+      "commandCount": 29,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-luna-pro/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "status": "completed",
+      "commandCount": 31,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/openai__gpt-5.6-luna/official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "x-ai/grok-4.5",
+      "status": "completed",
+      "commandCount": 29,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/x-ai__grok-4.5/official-v0.1-incremental-2026-07-15-frontier-batch"
+    }
+  ]
+}

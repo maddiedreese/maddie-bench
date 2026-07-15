@@ -6,82 +6,378 @@
   "exclusions": [
     {
       "family": "Z.ai",
-      "models": ["z-ai/glm-5v-turbo", "z-ai/glm-4.6v", "z-ai/glm-4.5v"],
+      "models": [
+        "z-ai/glm-5v-turbo",
+        "z-ai/glm-4.6v",
+        "z-ai/glm-4.5v"
+      ],
       "reason": "Excluded from Track B v0.1 because OpenRouter returned no compatible route for the official image plus structured-output request during preflight."
     },
     {
       "family": "OpenAI",
-      "models": ["openai/gpt-5.5-pro"],
+      "models": [
+        "openai/gpt-5.5-pro"
+      ],
       "reason": "Excluded from Track B v0.1 because the OpenRouter route repeatedly exhausted the completion budget on hidden reasoning and returned truncated JSON during compact protocol preflight."
     },
     {
       "family": "Qwen",
-      "models": ["qwen/qwen3-vl-30b-a3b-thinking"],
+      "models": [
+        "qwen/qwen3-vl-30b-a3b-thinking"
+      ],
       "reason": "Excluded from Track B v0.1 because OpenRouter returned a provider error for the official image plus structured-output request during compact protocol preflight."
     },
     {
       "family": "ByteDance",
-      "models": ["bytedance/ui-tars-1.5-7b"],
+      "models": [
+        "bytedance/ui-tars-1.5-7b"
+      ],
       "reason": "Excluded from Track B v0.1 because OpenRouter's upstream Parasail route repeatedly returned 429 provider rate-limit errors during official-run retries, so the route was provider unavailable."
+    },
+    {
+      "family": "Thinking Machines",
+      "models": [
+        "thinkingmachines/Inkling"
+      ],
+      "reason": "Watchlisted for a future Track B insertion, but excluded from the 2026-07-15 incremental batch because it was not listed in OpenRouter's model catalog. maddie-bench v0.1 runs all official model calls through OpenRouter."
     }
   ],
   "models": [
-    { "id": "openai/gpt-5.5", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5.4-pro", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5.4", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5.4-mini", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5.4-nano", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5.3-codex", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5-codex", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5-pro", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5-mini", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-    { "id": "openai/gpt-5-nano", "provider": "openrouter", "family": "OpenAI", "status": "planned" },
-
-    { "id": "anthropic/claude-sonnet-5", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-fable-5", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-opus-4.8", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-opus-4.8-fast", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-opus-4.7", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-sonnet-4.6", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-opus-4.6", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-opus-4.5", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-sonnet-4.5", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-    { "id": "anthropic/claude-haiku-4.5", "provider": "openrouter", "family": "Anthropic", "status": "planned" },
-
-    { "id": "google/gemini-3.5-flash", "provider": "openrouter", "family": "Google", "status": "planned" },
-    { "id": "google/gemini-3.1-pro-preview", "provider": "openrouter", "family": "Google", "status": "planned" },
-    { "id": "google/gemini-3.1-flash-lite", "provider": "openrouter", "family": "Google", "status": "planned" },
-    { "id": "google/gemini-3-flash-preview", "provider": "openrouter", "family": "Google", "status": "planned" },
-    { "id": "google/gemini-2.5-flash-lite", "provider": "openrouter", "family": "Google", "status": "planned" },
-
-    { "id": "qwen/qwen3.7-plus", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3.6-plus", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3.6-flash", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3-vl-235b-a22b-thinking", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3-vl-235b-a22b-instruct", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3-vl-32b-instruct", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-    { "id": "qwen/qwen3-vl-8b-instruct", "provider": "openrouter", "family": "Qwen", "status": "planned" },
-
-    { "id": "x-ai/grok-4.3", "provider": "openrouter", "family": "xAI", "status": "planned" },
-    { "id": "x-ai/grok-4.20", "provider": "openrouter", "family": "xAI", "status": "planned" },
-    { "id": "x-ai/grok-4.20-multi-agent", "provider": "openrouter", "family": "xAI", "status": "planned" },
-
-    { "id": "mistralai/mistral-medium-3-5", "provider": "openrouter", "family": "Mistral", "status": "planned" },
-    { "id": "mistralai/mistral-medium-3.1", "provider": "openrouter", "family": "Mistral", "status": "planned" },
-    { "id": "mistralai/mistral-large-2512", "provider": "openrouter", "family": "Mistral", "status": "planned" },
-    { "id": "mistralai/mistral-small-2603", "provider": "openrouter", "family": "Mistral", "status": "planned" },
-
-    { "id": "moonshotai/kimi-k2.7-code", "provider": "openrouter", "family": "Moonshot", "status": "planned" },
-    { "id": "moonshotai/kimi-k2.6", "provider": "openrouter", "family": "Moonshot", "status": "planned" },
-    { "id": "moonshotai/kimi-k2.5", "provider": "openrouter", "family": "Moonshot", "status": "planned" },
-
-    { "id": "bytedance-seed/seed-2.0-lite", "provider": "openrouter", "family": "ByteDance", "status": "planned" },
-    { "id": "bytedance-seed/seed-2.0-mini", "provider": "openrouter", "family": "ByteDance", "status": "planned" },
-    { "id": "bytedance-seed/seed-1.6", "provider": "openrouter", "family": "ByteDance", "status": "planned" },
-
-    { "id": "sakana/fugu-ultra", "provider": "openrouter", "family": "Sakana", "status": "planned" },
-    { "id": "minimax/minimax-m3", "provider": "openrouter", "family": "MiniMax", "status": "planned" },
-    { "id": "rekaai/reka-edge", "provider": "openrouter", "family": "Reka", "status": "planned" }
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.4-nano",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5.3-codex",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5-codex",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8-fast",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.6-flash",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.20",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "provider": "openrouter",
+      "family": "Mistral",
+      "status": "planned"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "provider": "openrouter",
+      "family": "Mistral",
+      "status": "planned"
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "provider": "openrouter",
+      "family": "Mistral",
+      "status": "planned"
+    },
+    {
+      "id": "mistralai/mistral-small-2603",
+      "provider": "openrouter",
+      "family": "Mistral",
+      "status": "planned"
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "provider": "openrouter",
+      "family": "Moonshot",
+      "status": "planned"
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "provider": "openrouter",
+      "family": "Moonshot",
+      "status": "planned"
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "family": "Moonshot",
+      "status": "planned"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-lite",
+      "provider": "openrouter",
+      "family": "ByteDance",
+      "status": "planned"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-mini",
+      "provider": "openrouter",
+      "family": "ByteDance",
+      "status": "planned"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6",
+      "provider": "openrouter",
+      "family": "ByteDance",
+      "status": "planned"
+    },
+    {
+      "id": "sakana/fugu-ultra",
+      "provider": "openrouter",
+      "family": "Sakana",
+      "status": "planned"
+    },
+    {
+      "id": "minimax/minimax-m3",
+      "provider": "openrouter",
+      "family": "MiniMax",
+      "status": "planned"
+    },
+    {
+      "id": "rekaai/reka-edge",
+      "provider": "openrouter",
+      "family": "Reka",
+      "status": "planned"
+    }
   ]
 }

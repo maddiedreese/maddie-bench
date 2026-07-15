@@ -1,0 +1,12 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "policy": "Official v0.1 plus 2026-07-01 Anthropic 5 insertion and 2026-07-15 frontier batch insertion.",
+  "base_judgment_source": "official-v0.1-plus-2026-07-01-anthropic-5-judge",
+  "incremental_judgment_run": "incremental-2026-07-15-frontier-batch-judge",
+  "base_count": 3075,
+  "incremental_count": 483,
+  "combined_count": 3558,
+  "created_at": "2026-07-15T21:32:49.695Z"
+}
