@@ -40,6 +40,14 @@
     {
       "model": "x-ai/grok-4.5",
       "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch"
+    },
+    {
+      "model": "meta/muse-spark-1.1",
+      "run_id": "official-v0.1-incremental-2026-07-16-muse-kimi-batch"
+    },
+    {
+      "model": "moonshotai/kimi-k3",
+      "run_id": "official-v0.1-incremental-2026-07-16-muse-kimi-batch"
     }
   ]
 }

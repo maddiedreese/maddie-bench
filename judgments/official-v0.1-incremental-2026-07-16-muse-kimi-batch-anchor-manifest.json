@@ -1,0 +1,39 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "run_id": "official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+  "judgment_run_id": "incremental-2026-07-16-muse-kimi-batch-judge",
+  "new_models": [
+    "meta/muse-spark-1.1"
+  ],
+  "provider_unavailable": [
+    "moonshotai/kimi-k3"
+  ],
+  "anchor_policy": "Muse Spark was judged blind against a fixed anchor set spanning top, middle, lower valid outputs, plus Moonshot adjacent models. Kimi K3 was catalog-available but provider-unavailable through OpenRouter/Moonshot 429 errors and has no rendered output in this batch.",
+  "anchors": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-sol-pro",
+    "openai/gpt-5.6-luna-pro",
+    "sakana/fugu-ultra",
+    "moonshotai/kimi-k2.7-code",
+    "moonshotai/kimi-k2.5",
+    "openai/gpt-5.5",
+    "google/gemini-3.5-flash",
+    "anthropic/claude-fable-5",
+    "anthropic/claude-sonnet-5",
+    "x-ai/grok-4.5",
+    "openai/gpt-5",
+    "x-ai/grok-4.20",
+    "mistralai/mistral-large-2512",
+    "qwen/qwen3-vl-32b-instruct",
+    "mistralai/mistral-small-2603",
+    "qwen/qwen3-vl-8b-instruct",
+    "x-ai/grok-4.3",
+    "rekaai/reka-edge"
+  ],
+  "pair_limit": 20,
+  "expected_judgments": 60,
+  "created_at": "2026-07-16T23:27:53.544Z"
+}

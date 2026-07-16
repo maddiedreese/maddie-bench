@@ -39,7 +39,7 @@
       "models": [
         "thinkingmachines/Inkling"
       ],
-      "reason": "Watchlisted for a future Track B insertion, but excluded from the 2026-07-15 incremental batch because it was not listed in OpenRouter's model catalog. maddie-bench v0.1 runs all official model calls through OpenRouter."
+      "reason": "Watchlisted for a future Track B insertion, but still excluded from the 2026-07-16 incremental batch because it was not listed in OpenRouter's model catalog. maddie-bench v0.1 runs all official model calls through OpenRouter."
     }
   ],
   "models": [
@@ -137,6 +137,12 @@
       "id": "openai/gpt-5-mini",
       "provider": "openrouter",
       "family": "OpenAI",
+      "status": "planned"
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "provider": "openrouter",
+      "family": "Meta",
       "status": "planned"
     },
     {
@@ -327,6 +333,12 @@
     },
     {
       "id": "moonshotai/kimi-k2.7-code",
+      "provider": "openrouter",
+      "family": "Moonshot",
+      "status": "planned"
+    },
+    {
+      "id": "moonshotai/kimi-k3",
       "provider": "openrouter",
       "family": "Moonshot",
       "status": "planned"

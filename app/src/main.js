@@ -52,7 +52,7 @@ app.innerHTML = `
       <div>
         <p class="date">Released</p>
         <h3>2026-06-29</h3>
-        <p>Last updated: <span id="lastUpdated">2026-06-30</span></p>
+        <p>Last updated: <span id="lastUpdated">2026-07-16</span></p>
       </div>
       <div>
         <p class="date">Citation</p>

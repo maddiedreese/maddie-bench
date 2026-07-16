@@ -8,7 +8,7 @@ maddie-bench
 
 Track B v0.1
 
-Last updated: 2026-07-15
+Last updated: 2026-07-16
 
 ## Task
 
@@ -47,7 +47,7 @@ The locked reference image is stored in the repository at `app/public/reference/
 
 ## Current Model Set
 
-See `runner/models.track-b.json`. The current Track B v0.1 registry has 56 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion and the 2026-07-15 frontier batch insertion.
+See `runner/models.track-b.json`. The current Track B v0.1 registry has 58 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, and the 2026-07-16 Muse Spark / Kimi K3 insertion batch.
 
 ## Exclusions
 
