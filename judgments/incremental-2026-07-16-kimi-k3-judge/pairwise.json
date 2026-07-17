@@ -1,0 +1,2962 @@
+[
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 0,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.62,
+    "rationale": "B better captures the grayscale tone, dark hair framing the face, hands on cheeks, and a more surprised open-mouth expression. A has the curtain-like background and symmetry, but its eyes are less large/alert and the overall face proportions are less close.",
+    "wall_time_seconds": 2.1970926250000002,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 82,
+      "total_tokens": 6658,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03534,
+        "upstream_inference_prompt_cost": 0.03288,
+        "upstream_inference_completions_cost": 0.00246
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 0,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.82,
+    "rationale": "B better captures the surprised expression with large open eyes, open mouth, hands pressed against cheeks, dark hair framing the face, and grayscale vertical background. A has droopy half-closed eyes and less convincing composition.",
+    "wall_time_seconds": 4.442025791,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 99,
+      "total_tokens": 7608,
+      "cost": 0.04002,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04002,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002475
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 0,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate B captures the key elements of the reference image much better than Candidate A. Specifically, Candidate B features wide, surprised eyes with visible pupils/whites, an open mouth with a rounded shape, and a background of vertical stripes that closely mimics the curtain folds in the reference. Candidate A's eyes are squinted/closed-looking, which fails to convey the wide-eyed surprise of the original photo.",
+    "wall_time_seconds": 2.8888388330000003,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 111,
+      "total_tokens": 3697,
+      "cost": 0.006378,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006378,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000999
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 1,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-terra",
+    "result": 0,
+    "winner": "openai/gpt-5.6-terra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-terra/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.66,
+    "rationale": "B better captures the surprised expression with large open eyes, rounded open mouth, hands pressed to cheeks, dark hair framing the face, and grayscale vertical curtain background. A has the right general pose but the eyes are too dark and narrow, making the expression less like the reference.",
+    "wall_time_seconds": 2.199883792,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 86,
+      "total_tokens": 6662,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03546,
+        "upstream_inference_prompt_cost": 0.03288,
+        "upstream_inference_completions_cost": 0.00258
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 1,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-terra",
+    "result": 0,
+    "winner": "openai/gpt-5.6-terra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-terra/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "B better captures the large surprised eyes, open mouth, hands pressed on cheeks and dark hair framing the face with vertical grayscale background. A's face is too narrow and eyes look sleepy rather than surprised.",
+    "wall_time_seconds": 5.898142125000001,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 98,
+      "total_tokens": 7607,
+      "cost": 0.039995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039995,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00245
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 1,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-terra",
+    "result": 0,
+    "winner": "openai/gpt-5.6-terra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-terra/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate B much better captures the wide-eyed, surprised expression of the reference image. In Candidate A, the eyes are depicted as narrow, flat slits, which fails to convey the shocked look of the original photo. Additionally, the round open mouth and overall facial structure in B are closer to the reference.",
+    "wall_time_seconds": 3.0008147919999995,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 90,
+      "total_tokens": 3676,
+      "cost": 0.006189,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006189,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.00081
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 2,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.68,
+    "rationale": "B better captures the surprised expression with larger open eyes, round open mouth, and hands pressed against the cheeks. A has the curtain-like striped background, but its eyes look more sleepy and the face/hand proportions are less faithful overall.",
+    "wall_time_seconds": 2.033545167,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 78,
+      "total_tokens": 6654,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027156,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00234
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 2,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.78,
+    "rationale": "B better captures the surprised expression with large open eyes, open mouth, hands pressed on cheeks, and dark hair framing the face in a grayscale striped background, matching the reference more closely than A's downcast look.",
+    "wall_time_seconds": 4.47736025,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 95,
+      "total_tokens": 7604,
+      "cost": 0.03992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03992,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 2,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-sol-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-sol-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-sol-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate B captures the key elements of the reference image much better than Candidate A. Specifically, B features wide, surprised eyes with visible pupils, a rounded open mouth, and hair that frames the face in a way that is much closer to the reference. Candidate A's eyes are squinted/flat, and the hair is rendered as two separate hanging blocks that do not resemble the reference's hairstyle.",
+    "wall_time_seconds": 2.7149110409999997,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 110,
+      "total_tokens": 3696,
+      "cost": 0.006369,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006369,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.00099
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 3,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-luna-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-luna-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-luna-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "B better captures the surprised expression with large round eyes, open mouth, hands pressed to the cheeks, dark hair framing the face, and vertical curtain-like grayscale background. A has the hands and vertical background but the eyes are too narrow and the expression is less clearly surprised.",
+    "wall_time_seconds": 2.178750125,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 85,
+      "total_tokens": 6661,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027366,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00255
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 3,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-luna-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-luna-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-luna-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "B better captures the large surprised eyes, open mouth, hands pressed on cheeks, dark hair framing the face, and vertical striped grayscale background. A's eyes are droopy and less surprised, and hands are less clearly on cheeks.",
+    "wall_time_seconds": 4.972004291999999,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 104,
+      "total_tokens": 7613,
+      "cost": 0.040145,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.040145,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.0026
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 3,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.6-luna-pro",
+    "result": 0,
+    "winner": "openai/gpt-5.6-luna-pro",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.6-luna-pro/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate B much better captures the wide, surprised eyes of the reference image, whereas Candidate A has narrow, squinted eyes. Additionally, the overall head shape, hair flow, and open mouth shape in B are a closer match to the reference.",
+    "wall_time_seconds": 3.413698792,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 78,
+      "total_tokens": 3664,
+      "cost": 0.006081,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006081,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000702
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 4,
+    "a": "moonshotai/kimi-k3",
+    "b": "sakana/fugu-ultra",
+    "result": 0,
+    "winner": "sakana/fugu-ultra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/sakana__fugu-ultra/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.67,
+    "rationale": "B better captures the wide-eyed surprised expression, open mouth, hands against cheeks, dark hair framing the face, and grayscale curtain-like background. A has hands and an open mouth but the eyes are less large/surprised and the face proportions are less faithful.",
+    "wall_time_seconds": 1.5309501659999996,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 84,
+      "total_tokens": 6660,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027336,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00252
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 4,
+    "a": "moonshotai/kimi-k3",
+    "b": "sakana/fugu-ultra",
+    "result": 0,
+    "winner": "sakana/fugu-ultra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/sakana__fugu-ultra/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.7,
+    "rationale": "B better captures the large surprised eyes, open mouth, hands pressed on cheeks, dark hair framing the face, and vertical grayscale background. A's eyes are droopy and less surprised, with weaker composition.",
+    "wall_time_seconds": 3.6662807920000002,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 95,
+      "total_tokens": 7604,
+      "cost": 0.03992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03992,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 4,
+    "a": "moonshotai/kimi-k3",
+    "b": "sakana/fugu-ultra",
+    "result": 0,
+    "winner": "sakana/fugu-ultra",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/sakana__fugu-ultra/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate B is a much better representation of the reference image. It captures the wide, surprised eyes with round pupils, the shape of the dark hair framing the face, and the hands pressed flat against the cheeks. Candidate A has closed/squinted eyes that do not match the wide-eyed surprise of the reference, and the hair is styled in a way that looks like long ears rather than framing the face.",
+    "wall_time_seconds": 2.0346572079999996,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 112,
+      "total_tokens": 3698,
+      "cost": 0.006387,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006387,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.001008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 5,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.7-code",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.7-code",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.7-code/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.78,
+    "rationale": "A better matches the reference composition with a front-facing surprised face, open mouth, hands pressed to the cheeks, dark hair framing the face, grayscale palette, and vertical curtain-like background. B has the background and dark framing but the face is much less human-like, the eyes are small rather than large, and the hand/cheek pose is less accurate.",
+    "wall_time_seconds": 0.6857349170000007,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 103,
+      "total_tokens": 6679,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03597,
+        "upstream_inference_prompt_cost": 0.03288,
+        "upstream_inference_completions_cost": 0.00309
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 5,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.7-code",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.7-code",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.7-code/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.68,
+    "rationale": "A better captures large eyes, open surprised mouth, hands pressed to cheeks, and dark hair framing the face with vertical striped background. B's eyes are small and hands less clearly pressed to cheeks.",
+    "wall_time_seconds": 3.4001272500000006,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 93,
+      "total_tokens": 7602,
+      "cost": 0.03987,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03987,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002325
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 5,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.7-code",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.7-code",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.7-code/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A is a much better representation of the reference image. It clearly depicts the hands pressed against the cheeks, the open mouth, and the dark hair framing the face in a stylized manner. Candidate B is overly abstract, with tiny eyes that do not capture the wide-eyed surprised expression, and the hand placement is very unclear.",
+    "wall_time_seconds": 1.8244044170000007,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 95,
+      "total_tokens": 3681,
+      "cost": 0.006234,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006234,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000855
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 6,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.5/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.86,
+    "rationale": "A better matches the reference composition with a centered face, hands pressed against the cheeks, dark hair framing the face, an open surprised mouth, and vertical curtain-like background. B has the background and dark hair shapes but the hands are not pressed to the cheeks and the facial proportions/expression are much less similar.",
+    "wall_time_seconds": 2.095984834,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 93,
+      "total_tokens": 6669,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03567,
+        "upstream_inference_prompt_cost": 0.03288,
+        "upstream_inference_completions_cost": 0.00279
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 6,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.5/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.82,
+    "rationale": "A better captures the surprised open mouth, hands pressed to cheeks, dark hair framing the face, and grayscale vertical background with proper proportions. B's face and features are less recognizable and less faithful.",
+    "wall_time_seconds": 3.7694645840000005,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 91,
+      "total_tokens": 7600,
+      "cost": 0.03982,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03982,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 6,
+    "a": "moonshotai/kimi-k3",
+    "b": "moonshotai/kimi-k2.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "moonshotai/kimi-k2.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/moonshotai__kimi-k2.5/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.9,
+    "rationale": "Candidate A is a much better representation of the reference image. It clearly depicts the hands pressed against the cheeks, a wide-open mouth in a surprised expression, and a vertical striped background that mimics the curtains. Candidate B is highly abstract, lacks clear hands on the cheeks, and has a smiling mouth rather than a surprised, open mouth.",
+    "wall_time_seconds": 4.714526166000001,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 96,
+      "total_tokens": 3682,
+      "cost": 0.006243,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006243,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000864
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 7,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "openai/gpt-5.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.5/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.67,
+    "rationale": "A better matches the reference composition with hands pressed against the cheeks, dark hair framing the face, vertical curtain background, and an open surprised mouth. B has a similar grayscale curtain look but the hands are less clearly pressed to the cheeks and the facial proportions are less close.",
+    "wall_time_seconds": 1.7519725420000005,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 85,
+      "total_tokens": 6661,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027366,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00255
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 7,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.5",
+    "result": 0,
+    "winner": "openai/gpt-5.5",
+    "loser": "moonshotai/kimi-k3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.5/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.62,
+    "rationale": "B better captures the surprised open-mouth expression, hands pressed to cheeks, dark hair framing the face, and vertical grayscale background. A's eyes are half-closed and hands are less clearly on cheeks.",
+    "wall_time_seconds": 2.7315290830000003,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 95,
+      "total_tokens": 7604,
+      "cost": 0.03992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03992,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 7,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "openai/gpt-5.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5.5/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A is a much better representation of the reference image. It clearly depicts the hands pressed against the cheeks, whereas in Candidate B, the hands are extremely faint, transparent, and barely visible. Additionally, Candidate A captures the wide, surprised eyes much better than Candidate B, which has very small, dot-like eyes.",
+    "wall_time_seconds": 1.898532083000001,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 94,
+      "total_tokens": 3680,
+      "cost": 0.006225,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006225,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000846
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 8,
+    "a": "moonshotai/kimi-k3",
+    "b": "google/gemini-3.5-flash",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "google/gemini-3.5-flash",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/google__gemini-3.5-flash/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "A better matches the reference composition with the face centered lower in frame, hands pressed directly against the cheeks, elongated open mouth, dark hair around the face, and vertical curtain-like background. B has a similar palette and background but the eyes are much smaller, the mouth is less surprised, and the hands sit more alongside the face than pressed to the cheeks.",
+    "wall_time_seconds": 2.0281179170000003,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 102,
+      "total_tokens": 6678,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027876,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00306
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 8,
+    "a": "moonshotai/kimi-k3",
+    "b": "google/gemini-3.5-flash",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "google/gemini-3.5-flash",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/google__gemini-3.5-flash/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.6,
+    "rationale": "A better captures the open-mouthed surprised expression, hands pressed against cheeks, dark hair framing the face, and grayscale vertical background. B has hands too low and a less convincing surprised expression.",
+    "wall_time_seconds": 4.3205965420000005,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 90,
+      "total_tokens": 7599,
+      "cost": 0.039795,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039795,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00225
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 8,
+    "a": "moonshotai/kimi-k3",
+    "b": "google/gemini-3.5-flash",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "google/gemini-3.5-flash",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/google__gemini-3.5-flash/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A much better captures the key elements of the reference image. Specifically, the eyes in A are much larger and more expressive of surprise, matching the reference. Additionally, the background stripes in A are solid and vertical, closely mimicking the curtain folds of the reference, whereas B uses semi-transparent overlapping rounded bars that do not resemble curtains.",
+    "wall_time_seconds": 4.323360957999999,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 97,
+      "total_tokens": 3683,
+      "cost": 0.006252,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006252,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000873
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 9,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-fable-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-fable-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-fable-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.78,
+    "rationale": "A better matches the reference composition with a centered face, hands pressed against both cheeks, open surprised mouth, dark hair framing the face, and vertical curtain-like background. B has a less surprised expression, smaller eyes, less accurate mouth, and more distorted proportions.",
+    "wall_time_seconds": 0.7203831250000003,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 83,
+      "total_tokens": 6659,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027306,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00249
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 9,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-fable-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-fable-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-fable-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.68,
+    "rationale": "A better captures the surprised open-mouth expression, large eyes, hands pressed to cheeks, dark hair framing the face, and vertical background in a grayscale look. B lacks a clear open mouth and surprised expression.",
+    "wall_time_seconds": 3.956450832999999,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 97,
+      "total_tokens": 7606,
+      "cost": 0.03997,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03997,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002425
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 9,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-fable-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-fable-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-fable-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A much better captures the surprised expression with wide, staring eyes and a vertically open mouth. It also positions the hands flat against the cheeks in a way that closely mimics the iconic pose in the reference image, whereas Candidate B has small, squinted eyes, a heart-shaped mouth, and hands that do not resemble the reference pose as well.",
+    "wall_time_seconds": 2.0950356250000004,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 99,
+      "total_tokens": 3685,
+      "cost": 0.00627,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00627,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000891
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 10,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-sonnet-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-sonnet-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-sonnet-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.86,
+    "rationale": "A better matches the reference with a centered face, hands pressed to cheeks, open surprised mouth, dark hair framing the face, grayscale tones, and vertical curtain-like background. B has hands covering the mouth more than cheeks, a less surprised/large-eyed expression, and a distracting large curved background shape.",
+    "wall_time_seconds": 1.0507025830000003,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 91,
+      "total_tokens": 6667,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027546,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00273
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 10,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-sonnet-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-sonnet-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-sonnet-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.82,
+    "rationale": "A better captures the surprised open mouth, visible large eyes, hands framing the cheeks, dark hair around the face, and the vertical striped grayscale background. B's hands cover the face and the eyes/mouth are muddled.",
+    "wall_time_seconds": 2.3822927500000004,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 100,
+      "total_tokens": 7609,
+      "cost": 0.040045,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.040045,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.0025
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 10,
+    "a": "moonshotai/kimi-k3",
+    "b": "anthropic/claude-sonnet-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "anthropic/claude-sonnet-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/anthropic__claude-sonnet-5/official-v0.1-incremental-2026-07-01-anthropic-5",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A much better captures the composition of the reference image. It features the hands pressed flat against the cheeks on either side of the face, leaving the open mouth clearly visible in a surprised expression. Candidate B covers the mouth and nose entirely with the hands, which does not match the reference.",
+    "wall_time_seconds": 2.2386182500000014,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 87,
+      "total_tokens": 3673,
+      "cost": 0.006162,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006162,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000783
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 11,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.5/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.86,
+    "rationale": "A better matches the reference composition with a centered face, dark hair framing the sides, hands pressed vertically against the cheeks, an open surprised mouth, and vertical curtain-like background. B has the same rough elements but is much more distorted, with oversized looping hair and less accurate hand placement and proportions.",
+    "wall_time_seconds": 0.6521502499999988,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 90,
+      "total_tokens": 6666,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027516,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.0027
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 11,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.5/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "A better captures the surprised open-mouth expression, hands pressed to cheeks, dark hair framing the face, and the vertical grayscale striped background with clearer composition and proportions. B is more chaotic and less recognizable.",
+    "wall_time_seconds": 2.4783002910000014,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 98,
+      "total_tokens": 7607,
+      "cost": 0.039995,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039995,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00245
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 11,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.5/official-v0.1-incremental-2026-07-15-frontier-batch",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.85,
+    "rationale": "Candidate A is a much cleaner and more recognizable depiction of the reference image. It clearly shows the hands pressed against the cheeks, the open mouth, the dark hair framing the face, and the vertical striped background representing the curtain. Candidate B is very abstract, messy, and difficult to interpret.",
+    "wall_time_seconds": 2.463644042,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 87,
+      "total_tokens": 3673,
+      "cost": 0.006162,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006162,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000783
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 12,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "openai/gpt-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.86,
+    "rationale": "A better matches the reference with a centered face, dark hair framing it, hands pressed to the cheeks, an open surprised mouth, and vertical curtain-like background. B has the background and some grayscale tones but the face is distorted/animal-like and lacks the correct upright human composition and hand placement.",
+    "wall_time_seconds": 0.6890866659999992,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 90,
+      "total_tokens": 6666,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.03558,
+        "upstream_inference_prompt_cost": 0.03288,
+        "upstream_inference_completions_cost": 0.0027
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 12,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "openai/gpt-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.72,
+    "rationale": "A better captures the surprised open-mouth expression, hands pressed against cheeks, dark hair framing the face, grayscale tone, and vertical striped background. B lacks the clear open mouth and surprised eyes and reads more ambiguously.",
+    "wall_time_seconds": 2.966076334000001,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 104,
+      "total_tokens": 7613,
+      "cost": 0.040145,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.040145,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.0026
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 12,
+    "a": "moonshotai/kimi-k3",
+    "b": "openai/gpt-5",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "openai/gpt-5",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/openai__gpt-5/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.95,
+    "rationale": "Candidate A much more accurately recreates the composition of the reference image. It clearly depicts a human figure with hands pressed against their cheeks, an open mouth in a surprised expression, and dark hair framing the face against a vertically striped background. Candidate B depicts a dog-like figure with glasses, which does not match the reference.",
+    "wall_time_seconds": 1.9009124169999996,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 94,
+      "total_tokens": 3680,
+      "cost": 0.006225,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006225,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000846
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 13,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.20",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.20",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.20/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.88,
+    "rationale": "A clearly better matches the reference with a centered face, dark hair framing the head, hands pressed against the cheeks, an open surprised mouth, and vertical curtain-like background. B is more abstract, appears rotated/fragmented, and lacks the recognizable hands-on-cheeks composition.",
+    "wall_time_seconds": 1.816118292000001,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 86,
+      "total_tokens": 6662,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027396,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00258
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 13,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.20",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.20",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.20/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.95,
+    "rationale": "A clearly depicts a face with surprised expression, open mouth, dark hair framing, hands on cheeks, and vertical striped grayscale background. B is abstract and lacks a recognizable face or expression.",
+    "wall_time_seconds": 2.612691290999999,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 94,
+      "total_tokens": 7603,
+      "cost": 0.039895,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039895,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00235
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 13,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.20",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.20",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.20/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.95,
+    "rationale": "Candidate A is a much clearer representation of the reference image. It depicts a stylized face with a surprised expression, open mouth, hands pressed against the cheeks, dark hair framing the face, and a vertical striped background resembling the curtain. Candidate B is extremely abstract and does not clearly represent a face or the requested pose.",
+    "wall_time_seconds": 2.0416549999999987,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 92,
+      "total_tokens": 3678,
+      "cost": 0.006207,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006207,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000828
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 14,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-large-2512",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-large-2512",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-large-2512/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.95,
+    "rationale": "A clearly better matches the reference with a centered face, dark hair framing it, hands pressed to cheeks, open mouth, and vertical curtain-like background. B is mostly abstract and lacks the key surprised portrait composition.",
+    "wall_time_seconds": 1.165009166,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 73,
+      "total_tokens": 6649,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027006,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00219
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 14,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-large-2512",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-large-2512",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-large-2512/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.92,
+    "rationale": "A clearly captures the surprised open-mouth expression, hands pressed against cheeks, dark hair framing the face, vertical striped background, and grayscale look. B is disorganized and abstract with poor proportions and unclear features.",
+    "wall_time_seconds": 2.5165190830000013,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 99,
+      "total_tokens": 7608,
+      "cost": 0.04002,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04002,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.002475
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 14,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-large-2512",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-large-2512",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-large-2512/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.99,
+    "rationale": "Candidate A clearly attempts to recreate the reference image's composition, depicting a stylized figure with hands pressed against its cheeks, an open mouth, dark hair, and a vertical striped background. Candidate B is an abstract composition that does not resemble the reference image.",
+    "wall_time_seconds": 1.825040791999998,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 80,
+      "total_tokens": 3666,
+      "cost": 0.006099,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006099,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.00072
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 15,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-32b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-32b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-32b-instruct/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.93,
+    "rationale": "A clearly depicts a centered face with dark hair, open surprised mouth, hands pressed to cheeks, grayscale tones, and vertical curtain-like background. B has vertical stripes but lacks a coherent face, hands, mouth, and overall portrait composition.",
+    "wall_time_seconds": 0.5414526670000014,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 78,
+      "total_tokens": 6654,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027156,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00234
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 15,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-32b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-32b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-32b-instruct/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.95,
+    "rationale": "A clearly depicts a face with surprised open mouth, dark hair, hands pressed to cheeks, and vertical striped grayscale background, closely matching the reference. B is abstract and unrecognizable.",
+    "wall_time_seconds": 2.8847251670000005,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 94,
+      "total_tokens": 7603,
+      "cost": 0.039895,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039895,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00235
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 15,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-32b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-32b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-32b-instruct/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.98,
+    "rationale": "Candidate A clearly depicts a stylized person with hands pressed against their cheeks, an open mouth, and dark hair, matching the composition and pose of the reference image. Candidate B is highly abstract and does not resemble the reference image's subject or composition.",
+    "wall_time_seconds": 1.9471084589999992,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 79,
+      "total_tokens": 3665,
+      "cost": 0.00609,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00609,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000711
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 16,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-small-2603",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-small-2603",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-small-2603/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.93,
+    "rationale": "A clearly depicts a person with dark hair, open mouth, hands against cheeks, grayscale tones, and vertical curtain-like background, matching the reference composition. B is an abstract eye-like close-up and lacks the face, expression, hands, and background resemblance.",
+    "wall_time_seconds": 0.9522507089999999,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 82,
+      "total_tokens": 6658,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027276,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00246
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 16,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-small-2603",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-small-2603",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-small-2603/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.97,
+    "rationale": "A clearly depicts a surprised face with open mouth, dark hair, hands near cheeks, vertical striped grayscale background matching the reference. B is an abstract swirl with no recognizable face or pose.",
+    "wall_time_seconds": 2.3711655419999986,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 94,
+      "total_tokens": 7603,
+      "cost": 0.039895,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039895,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00235
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 16,
+    "a": "moonshotai/kimi-k3",
+    "b": "mistralai/mistral-small-2603",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "mistralai/mistral-small-2603",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/mistralai__mistral-small-2603/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.99,
+    "rationale": "Candidate A successfully captures the core elements of the reference image, including the surprised expression, open mouth, hands pressed against the cheeks, dark hair framing the face, and a vertical striped background resembling the curtains. Candidate B is completely abstract and does not resemble the reference image.",
+    "wall_time_seconds": 2.2227832500000004,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 83,
+      "total_tokens": 3669,
+      "cost": 0.006126,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006126,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000747
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 17,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-8b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-8b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-8b-instruct/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.92,
+    "rationale": "A clearly depicts a face with dark hair, open mouth, hands pressed to cheeks, and a vertical curtain-like grayscale background. B is abstract and lacks the recognizable surprised portrait composition.",
+    "wall_time_seconds": 0.9044471250000025,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 67,
+      "total_tokens": 6643,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026826,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00201
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 17,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-8b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-8b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-8b-instruct/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.97,
+    "rationale": "A clearly depicts a surprised face with open mouth, dark hair, hands on cheeks, striped background and grayscale look. B is abstract shapes with no recognizable face.",
+    "wall_time_seconds": 3.2112994169999984,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 82,
+      "total_tokens": 7591,
+      "cost": 0.039595,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039595,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00205
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 17,
+    "a": "moonshotai/kimi-k3",
+    "b": "qwen/qwen3-vl-8b-instruct",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "qwen/qwen3-vl-8b-instruct",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/qwen__qwen3-vl-8b-instruct/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.99,
+    "rationale": "Candidate A is a clear representation of the reference image, capturing the surprised expression, open mouth, hands pressed against the cheeks, dark hair, and vertical striped background. Candidate B is an abstract pattern that does not resemble the reference image.",
+    "wall_time_seconds": 3.065716792000003,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 76,
+      "total_tokens": 3662,
+      "cost": 0.006063,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006063,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000684
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 18,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.3",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.3/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.93,
+    "rationale": "A clearly depicts a front-facing surprised face with an open mouth, hands against cheeks, dark hair framing the face, grayscale tones, and vertical curtain-like background. B is abstract scribbles and lacks the recognizable expression and composition.",
+    "wall_time_seconds": 0.5352530420000002,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 76,
+      "total_tokens": 6652,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027096,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00228
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 18,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.3",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.3/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.97,
+    "rationale": "A clearly captures the surprised face with open mouth, hands on cheeks, dark hair, and vertical grayscale background. B is abstract and unrecognizable.",
+    "wall_time_seconds": 2.7077624579999973,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 78,
+      "total_tokens": 7587,
+      "cost": 0.039495,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039495,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.00195
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 18,
+    "a": "moonshotai/kimi-k3",
+    "b": "x-ai/grok-4.3",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "x-ai/grok-4.3",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/x-ai__grok-4.3/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 1,
+    "rationale": "Candidate A successfully recreates the composition of the reference image, including the hands pressed against the cheeks, the surprised open mouth, the dark hair framing the face, and the vertical striped background representing the curtain. Candidate B is an abstract scribble that does not resemble the reference image at all.",
+    "wall_time_seconds": 1.7951045000000012,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 85,
+      "total_tokens": 3671,
+      "cost": 0.006144,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006144,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.000765
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 19,
+    "a": "moonshotai/kimi-k3",
+    "b": "rekaai/reka-edge",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "rekaai/reka-edge",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/rekaai__reka-edge/official-v0.1",
+    "judge": "openrouter/openai/gpt-5.5",
+    "judge_label": "GPT",
+    "judge_model": "openai/gpt-5.5",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.99,
+    "rationale": "A clearly attempts the reference composition with a surprised face, open mouth, hands on cheeks, dark hair, and vertical curtain-like background. B is essentially blank with only a small mark and does not resemble the reference.",
+    "wall_time_seconds": 1.4577427499999975,
+    "usage": {
+      "prompt_tokens": 6576,
+      "completion_tokens": 74,
+      "total_tokens": 6650,
+      "cost": 0,
+      "is_byok": true,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027036,
+        "upstream_inference_prompt_cost": 0.024816,
+        "upstream_inference_completions_cost": 0.00222
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 19,
+    "a": "moonshotai/kimi-k3",
+    "b": "rekaai/reka-edge",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "rekaai/reka-edge",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/rekaai__reka-edge/official-v0.1",
+    "judge": "openrouter/anthropic/claude-opus-4.8",
+    "judge_label": "Claude",
+    "judge_model": "anthropic/claude-opus-4.8",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 0.99,
+    "rationale": "A recreates the surprised face, hands on cheeks, dark hair, open mouth, and vertical grayscale background, while B is nearly blank.",
+    "wall_time_seconds": 3.616868708000002,
+    "usage": {
+      "prompt_tokens": 7509,
+      "completion_tokens": 72,
+      "total_tokens": 7581,
+      "cost": 0.039345,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.039345,
+        "upstream_inference_prompt_cost": 0.037545,
+        "upstream_inference_completions_cost": 0.0018
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "benchmark": "maddie-bench",
+    "track": "structured-drawing",
+    "version": "0.1",
+    "pair_index": 19,
+    "a": "moonshotai/kimi-k3",
+    "b": "rekaai/reka-edge",
+    "result": 1,
+    "winner": "moonshotai/kimi-k3",
+    "loser": "rekaai/reka-edge",
+    "run_a": "results/moonshotai__kimi-k3/official-v0.1-incremental-2026-07-16-muse-kimi-batch",
+    "run_b": "results/rekaai__reka-edge/official-v0.1",
+    "judge": "openrouter/google/gemini-3.5-flash",
+    "judge_label": "Gemini",
+    "judge_model": "google/gemini-3.5-flash",
+    "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+    "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+    "judge_config": "runner/judge-config.json",
+    "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+    "criterion": "Which rendered image better recreates Maddie's profile picture?",
+    "model_names_hidden_from_judge": true,
+    "confidence": 1,
+    "rationale": "Candidate A successfully recreates the composition of the reference image in a stylized vector format, capturing the hands pressed against the cheeks, the open mouth, the dark hair, and the vertical striped background. Candidate B is virtually blank, containing only a single diagonal line.",
+    "wall_time_seconds": 1.6118316659999983,
+    "usage": {
+      "prompt_tokens": 3586,
+      "completion_tokens": 80,
+      "total_tokens": 3666,
+      "cost": 0.006099,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006099,
+        "upstream_inference_prompt_cost": 0.005379,
+        "upstream_inference_completions_cost": 0.00072
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+]

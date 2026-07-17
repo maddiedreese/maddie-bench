@@ -14,25 +14,92 @@
   "run_config": "runner/run-config.json",
   "run_config_sha256": "dee8e5d5c981e609c9a358a116c2a941df47b3748107086568528c660b046638",
   "official_attempts_per_model": 1,
-  "status": "api_error",
-  "completed_at": "2026-07-16T23:27:10.665Z",
-  "error": "OpenRouter request failed for moonshotai/kimi-k3: 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Moonshot AI\",\"is_byok\":false,\"retry_after_seconds\":1,\"retry_after_seconds_raw\":1,\"headers\":{\"Retry-After\":\"1\"}}},\"user_id\":\"[redacted-openrouter-id]\"}",
+  "status": "completed",
+  "started_at": "2026-07-17T00:36:05.177Z",
+  "completed_at": "2026-07-17T00:38:03.925Z",
+  "raw_response_path": "raw-response.json",
+  "request_path": "request.json",
+  "cost_usd": 0.067887,
+  "wall_time_seconds": 10.403173083,
+  "usage": {
+    "prompt_tokens": 2979,
+    "completion_tokens": 3930,
+    "total_tokens": 6909,
+    "cost": 0.067887,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.067887,
+      "upstream_inference_prompt_cost": 0.008937,
+      "upstream_inference_completions_cost": 0.05895
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 2910,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "openrouter_generation_id": "gen-1784248565-uysvLTqmgqHtpPzbLgR5",
+  "resolved_model": "moonshotai/kimi-k3",
+  "request_body_settings": {
+    "temperature": null,
+    "reasoning": {
+      "exclude": true
+    },
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "max_completion_tokens": null,
+    "response_format": "json_schema",
+    "stream": false
+  },
+  "provider_attempt": 1,
   "provider_retry_policy": {
     "retry_provider_errors": true,
     "max_provider_retries": 1
   },
-  "provider_attempts": [
-    {
-      "attempt": 1,
-      "completed_at": "2026-07-16T23:27:09.042Z",
-      "status": "api_error",
-      "error": "OpenRouter request failed for moonshotai/kimi-k3: 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Moonshot AI\",\"is_byok\":false,\"retry_after_seconds\":1,\"retry_after_seconds_raw\":1,\"headers\":{\"Retry-After\":\"1\"}}},\"user_id\":\"[redacted-openrouter-id]\"}"
+  "recommended_command_budget": 30,
+  "over_recommended_command_budget": false,
+  "command_budget_delta": 0,
+  "runner_concurrency": 1,
+  "request_settings": {
+    "temperature": null,
+    "reasoning": {
+      "exclude": true
     },
-    {
-      "attempt": 2,
-      "completed_at": "2026-07-16T23:27:10.665Z",
-      "status": "api_error",
-      "error": "OpenRouter request failed for moonshotai/kimi-k3: 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"moonshotai/kimi-k3 is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Moonshot AI\",\"is_byok\":false,\"retry_after_seconds\":1,\"retry_after_seconds_raw\":1,\"headers\":{\"Retry-After\":\"1\"}}},\"user_id\":\"[redacted-openrouter-id]\"}"
-    }
-  ]
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "response_format": "json_schema",
+    "require_parameters": true,
+    "stream": false
+  },
+  "renderer": {
+    "path": "runner/render-commands.mjs",
+    "engine": "sharp_svg_to_png",
+    "output": "final.png"
+  },
+  "artifacts": [
+    "request.json",
+    "raw-response.json",
+    "commands.json",
+    "final.png",
+    "metadata.json"
+  ],
+  "command_count": 30,
+  "drawing_budget": {
+    "recommended_max_commands": 30,
+    "min_points_per_command": 2,
+    "recommended_max_points_per_command": 8
+  },
+  "canvas": {
+    "width": 1205,
+    "height": 1448,
+    "background": "#f7f3ef"
+  }
 }

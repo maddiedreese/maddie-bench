@@ -1,0 +1,12 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "policy": "Official v0.1 plus 2026-07-01 Anthropic 5 insertion, 2026-07-15 frontier batch insertion, 2026-07-16 Muse Spark insertion, and completed Kimi K3 insertion after provider availability recovered.",
+  "base_judgment_source": "official-v0.1-plus-2026-07-16-muse-kimi-batch-judge",
+  "incremental_judgment_run": "incremental-2026-07-16-kimi-k3-judge",
+  "base_count": 3618,
+  "incremental_count": 60,
+  "combined_count": 3678,
+  "created_at": "2026-07-17T00:39:52.479Z"
+}
