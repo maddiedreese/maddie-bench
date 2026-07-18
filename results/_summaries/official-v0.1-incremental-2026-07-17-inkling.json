@@ -1,0 +1,12 @@
+{
+  "runId": "official-v0.1-incremental-2026-07-17-inkling",
+  "concurrency": 1,
+  "results": [
+    {
+      "model": "thinkingmachines/inkling",
+      "status": "completed",
+      "commandCount": 10,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/thinkingmachines__inkling/official-v0.1-incremental-2026-07-17-inkling"
+    }
+  ]
+}

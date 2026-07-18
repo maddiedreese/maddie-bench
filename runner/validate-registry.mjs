@@ -75,7 +75,7 @@ function validateOpenRouterModel(id, modelsById, catalogErrors, options = {}) {
   }
 
   const supported = model.supported_parameters || [];
-  if (!supported.includes("structured_outputs") && !supported.includes("response_format")) {
-    catalogErrors.push(`${label} does not list structured output support.`);
+  if (!supported.includes("structured_outputs") && !supported.includes("response_format") && !supported.includes("tools")) {
+    catalogErrors.push(`${label} does not list structured output or tool-calling support.`);
   }
 }

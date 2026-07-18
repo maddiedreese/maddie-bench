@@ -48,6 +48,10 @@
     {
       "model": "moonshotai/kimi-k3",
       "run_id": "official-v0.1-incremental-2026-07-16-muse-kimi-batch"
+    },
+    {
+      "model": "thinkingmachines/inkling",
+      "run_id": "official-v0.1-incremental-2026-07-17-inkling"
     }
   ]
 }

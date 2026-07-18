@@ -33,13 +33,6 @@
         "bytedance/ui-tars-1.5-7b"
       ],
       "reason": "Excluded from Track B v0.1 because OpenRouter's upstream Parasail route repeatedly returned 429 provider rate-limit errors during official-run retries, so the route was provider unavailable."
-    },
-    {
-      "family": "Thinking Machines",
-      "models": [
-        "thinkingmachines/Inkling"
-      ],
-      "reason": "Watchlisted for a future Track B insertion, but still excluded from the 2026-07-16 incremental batch because it was not listed in OpenRouter's model catalog. maddie-bench v0.1 runs all official model calls through OpenRouter."
     }
   ],
   "models": [
@@ -389,6 +382,12 @@
       "id": "rekaai/reka-edge",
       "provider": "openrouter",
       "family": "Reka",
+      "status": "planned"
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "provider": "openrouter",
+      "family": "Thinking Machines",
       "status": "planned"
     }
   ]

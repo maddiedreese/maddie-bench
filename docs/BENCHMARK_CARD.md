@@ -8,7 +8,7 @@ maddie-bench
 
 Track B v0.1
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 ## Task
 
@@ -36,7 +36,7 @@ The source of truth is `runner/run-config.json`.
 - Temperature: `0.2`
 - Max tokens: `8000`
 - Drawing budget: `30` stroke commands recommended, not a hard failure threshold; each command must have at least `2` points, with no more than `8` points recommended
-- Response format: `json_schema`
+- Structured response path: `json_schema` when supported; otherwise the `submit_drawing` tool call when supported
 - Provider parameters required: `true`
 - Renderer: `runner/render-commands.mjs`
 - Output image: `final.png`
@@ -47,7 +47,7 @@ The locked reference image is stored in the repository at `app/public/reference/
 
 ## Current Model Set
 
-See `runner/models.track-b.json`. The current Track B v0.1 registry has 58 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, and the 2026-07-16 Muse Spark / Kimi K3 insertion batch.
+See `runner/models.track-b.json`. The current Track B v0.1 registry has 59 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, and the 2026-07-17 Inkling insertion.
 
 ## Exclusions
 

@@ -281,6 +281,26 @@ async function buildRequestBody(modelId) {
         schema: commandResponseSchema
       }
     };
+  } else if (supportsParameter(supported, "tools")) {
+    body.tools = [
+      {
+        type: "function",
+        function: {
+          name: "submit_drawing",
+          description: "Submit the final maddie-bench Track B drawing commands.",
+          parameters: commandResponseSchema
+        }
+      }
+    ];
+
+    if (supportsParameter(supported, "tool_choice")) {
+      body.tool_choice = {
+        type: "function",
+        function: {
+          name: "submit_drawing"
+        }
+      };
+    }
   }
 
   if (supportsParameter(supported, "temperature")) {
@@ -331,6 +351,8 @@ async function writeRunArtifacts({ outputDir, model, commands, metadata }) {
       include_reasoning: metadata.request_body_settings?.include_reasoning ?? null,
       max_tokens: metadata.request_body_settings?.max_tokens ?? metadata.request_body_settings?.max_completion_tokens ?? null,
       response_format: metadata.request_body_settings?.response_format ?? null,
+      tools: metadata.request_body_settings?.tools ?? null,
+      tool_choice: metadata.request_body_settings?.tool_choice ?? null,
       require_parameters: runConfig.request_settings.require_parameters,
       stream: metadata.request_body_settings?.stream ?? false
     },
@@ -527,6 +549,8 @@ function extractRequestSettings(requestBody) {
     max_tokens: requestBody.max_tokens ?? null,
     max_completion_tokens: requestBody.max_completion_tokens ?? null,
     response_format: requestBody.response_format?.type ?? null,
+    tools: requestBody.tools?.map((tool) => tool.function?.name).filter(Boolean) ?? null,
+    tool_choice: requestBody.tool_choice?.function?.name ?? null,
     stream: requestBody.stream ?? false
   };
 }
