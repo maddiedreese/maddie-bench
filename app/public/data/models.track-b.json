@@ -145,6 +145,14 @@
       "status": "planned"
     },
     {
+      "id": "anthropic/claude-opus-5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned",
+      "request_mode": "tool_call",
+      "omit_temperature": true
+    },
+    {
       "id": "anthropic/claude-sonnet-5",
       "provider": "openrouter",
       "family": "Anthropic",

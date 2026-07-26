@@ -161,7 +161,7 @@ async function runOpenRouterModel(model, runIdValue, retryContext = {}) {
   const outputDir = resultDir(model.id, runIdValue);
   await fs.promises.mkdir(outputDir, { recursive: true });
 
-  const requestBody = await buildRequestBody(model.id);
+  const requestBody = await buildRequestBody(model);
   await fs.promises.writeFile(path.join(outputDir, "request.json"), JSON.stringify(redactRequest(requestBody), null, 2));
 
   const start = performance.now();
@@ -241,9 +241,11 @@ async function runOpenRouterModel(model, runIdValue, retryContext = {}) {
   };
 }
 
-async function buildRequestBody(modelId) {
+async function buildRequestBody(model) {
+  const modelId = model.id;
   const dataUrl = await encodeReferenceImage();
   const supported = await getSupportedParameters(modelId);
+  const requestMode = model.request_mode || "auto";
   const body = {
     model: modelId,
     messages: [
@@ -272,7 +274,10 @@ async function buildRequestBody(modelId) {
     }
   };
 
-  if (supportsParameter(supported, "response_format") || supportsParameter(supported, "structured_outputs")) {
+  if (
+    requestMode !== "tool_call" &&
+    (supportsParameter(supported, "response_format") || supportsParameter(supported, "structured_outputs"))
+  ) {
     body.response_format = {
       type: "json_schema",
       json_schema: {
@@ -281,7 +286,7 @@ async function buildRequestBody(modelId) {
         schema: commandResponseSchema
       }
     };
-  } else if (supportsParameter(supported, "tools")) {
+  } else if (requestMode !== "json_schema" && supportsParameter(supported, "tools")) {
     body.tools = [
       {
         type: "function",
@@ -303,7 +308,7 @@ async function buildRequestBody(modelId) {
     }
   }
 
-  if (supportsParameter(supported, "temperature")) {
+  if (!model.omit_temperature && supportsParameter(supported, "temperature")) {
     body.temperature = Number(args.temperature ?? runConfig.request_settings.temperature);
   }
 
@@ -350,6 +355,7 @@ async function writeRunArtifacts({ outputDir, model, commands, metadata }) {
       reasoning_effort: metadata.request_body_settings?.reasoning_effort ?? null,
       include_reasoning: metadata.request_body_settings?.include_reasoning ?? null,
       max_tokens: metadata.request_body_settings?.max_tokens ?? metadata.request_body_settings?.max_completion_tokens ?? null,
+      structured_request_mode: metadata.request_body_settings?.structured_request_mode ?? null,
       response_format: metadata.request_body_settings?.response_format ?? null,
       tools: metadata.request_body_settings?.tools ?? null,
       tool_choice: metadata.request_body_settings?.tool_choice ?? null,
@@ -548,6 +554,7 @@ function extractRequestSettings(requestBody) {
     include_reasoning: requestBody.include_reasoning ?? null,
     max_tokens: requestBody.max_tokens ?? null,
     max_completion_tokens: requestBody.max_completion_tokens ?? null,
+    structured_request_mode: requestBody.response_format ? "json_schema" : requestBody.tools ? "tool_call" : "prompt_only",
     response_format: requestBody.response_format?.type ?? null,
     tools: requestBody.tools?.map((tool) => tool.function?.name).filter(Boolean) ?? null,
     tool_choice: requestBody.tool_choice?.function?.name ?? null,

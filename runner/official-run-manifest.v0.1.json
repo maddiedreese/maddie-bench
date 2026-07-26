@@ -6,6 +6,10 @@
   "default_run_id": "official-v0.1",
   "overrides": [
     {
+      "model": "anthropic/claude-opus-5",
+      "run_id": "official-v0.1-incremental-2026-07-26-opus-5"
+    },
+    {
       "model": "anthropic/claude-fable-5",
       "run_id": "official-v0.1-incremental-2026-07-01-anthropic-5"
     },

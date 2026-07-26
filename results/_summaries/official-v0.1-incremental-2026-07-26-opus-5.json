@@ -1,0 +1,12 @@
+{
+  "runId": "official-v0.1-incremental-2026-07-26-opus-5",
+  "concurrency": 1,
+  "results": [
+    {
+      "model": "anthropic/claude-opus-5",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/anthropic__claude-opus-5/official-v0.1-incremental-2026-07-26-opus-5"
+    }
+  ]
+}
