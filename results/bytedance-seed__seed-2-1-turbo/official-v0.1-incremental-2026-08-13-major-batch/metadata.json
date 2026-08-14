@@ -1,0 +1,24 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "model": "bytedance-seed/seed-2-1-turbo",
+  "provider": "openrouter",
+  "family": "ByteDance",
+  "prompt": "prompts/track-b-v0.1.md",
+  "reference_image": "app/public/reference/maddie-target.jpg",
+  "prompt_version": "track-b-v0.1",
+  "prompt_sha256": "07ba70602f86ac20daf459f392791ce48d81be255a7067de610f3a66072b783f",
+  "reference_sha256": "3c4b958ce5b88bba62c7de157537e3ba7be6f4e2e1c5b1f4f3435a8ba1237719",
+  "runner_sha256": "869fa67b9754069fdc4f8d1f094d57147cc9cd56884833da334401689360494d",
+  "run_config": "runner/run-config.json",
+  "run_config_sha256": "dee8e5d5c981e609c9a358a116c2a941df47b3748107086568528c660b046638",
+  "official_attempts_per_model": 1,
+  "status": "failed",
+  "completed_at": "2026-08-14T04:52:55.789Z",
+  "error": "Unexpected end of JSON input",
+  "provider_retry_policy": {
+    "retry_provider_errors": true,
+    "max_provider_retries": 1
+  }
+}

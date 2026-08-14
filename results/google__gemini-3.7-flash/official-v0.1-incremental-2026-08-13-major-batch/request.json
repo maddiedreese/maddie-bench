@@ -1,0 +1,83 @@
+{
+  "model": "google/gemini-3.7-flash",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful visual artist. Return valid JSON only."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "# maddie-bench Track B Prompt v0.1\n\nYou will receive a specific reference picture and must recreate it by emitting compact JSON drawing commands for a simple paint engine.\n\nThe canvas is exactly 1205 pixels wide and 1448 pixels tall.\n\nReturn only a JSON object with one key: `commands`. Do not return Markdown.\n\nThe `commands` value must be an array of stroke commands. Each stroke command must have exactly these short keys:\n\n- `c`: hex color string like `\"#201b1b\"`\n- `w`: brush width from 1 to 160\n- `o`: opacity number from 0.01 to 1\n- `p`: array of `[x, y]` coordinates\n\nRequired JSON shape:\n\n```json\n{\n  \"commands\": [\n    {\n      \"c\": \"#201b1b\",\n      \"w\": 12,\n      \"o\": 0.82,\n      \"p\": [[300, 300], [320, 330], [360, 380]]\n    }\n  ]\n}\n```\n\nUse a concise set of strokes to approximate:\n\n- surprised facial expression\n- large eyes\n- open mouth\n- hands pressed against cheeks\n- dark hair around the face\n- soft grayscale and sepia tones\n- vertical curtain-like background\n\nRules:\n\n- Prefer broad shapes over fine detail.\n- Aim for no more than 30 stroke commands.\n- Use at least 2 points per stroke.\n- Prefer no more than 8 points per stroke.\n- Do not write text on the canvas.\n- Do not output command keys other than `c`, `w`, `o`, and `p`.\n- Keep coordinates within the canvas.\n- Use valid hex colors and numeric coordinates.\n- Use enough strokes to capture the main composition, facial features, hands, hair, and background without approaching the token limit.\n- Do not include explanations, captions, comments, trailing prose, or Markdown fences.\n- Stop immediately after the complete JSON object.\n- Prefer broad composition first, then facial details, then texture.\n\n\nReturn a JSON object with a single key named commands."
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "[base64 reference image omitted]"
+          }
+        }
+      ]
+    }
+  ],
+  "provider": {
+    "require_parameters": true
+  },
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "maddie_bench_track_b_commands",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "commands": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "c": {
+                  "type": "string"
+                },
+                "w": {
+                  "type": "number"
+                },
+                "o": {
+                  "type": "number"
+                },
+                "p": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "required": [
+                "c",
+                "w",
+                "o",
+                "p"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "commands"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "temperature": 0.2,
+  "reasoning": {
+    "exclude": true,
+    "effort": "low"
+  },
+  "include_reasoning": false,
+  "max_tokens": 8000
+}

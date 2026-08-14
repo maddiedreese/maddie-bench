@@ -1,0 +1,117 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "model": "thinkingmachines/inkling-small",
+  "provider": "openrouter",
+  "family": "Thinking Machines",
+  "prompt": "prompts/track-b-v0.1.md",
+  "reference_image": "app/public/reference/maddie-target.jpg",
+  "prompt_version": "track-b-v0.1",
+  "prompt_sha256": "07ba70602f86ac20daf459f392791ce48d81be255a7067de610f3a66072b783f",
+  "reference_sha256": "3c4b958ce5b88bba62c7de157537e3ba7be6f4e2e1c5b1f4f3435a8ba1237719",
+  "runner_sha256": "869fa67b9754069fdc4f8d1f094d57147cc9cd56884833da334401689360494d",
+  "run_config": "runner/run-config.json",
+  "run_config_sha256": "dee8e5d5c981e609c9a358a116c2a941df47b3748107086568528c660b046638",
+  "official_attempts_per_model": 1,
+  "status": "completed",
+  "started_at": "2026-08-14T04:50:59.917Z",
+  "completed_at": "2026-08-14T04:51:07.486Z",
+  "raw_response_path": "raw-response.json",
+  "request_path": "request.json",
+  "cost_usd": 0.0021781,
+  "wall_time_seconds": 4.223994333,
+  "usage": {
+    "prompt_tokens": 2825,
+    "completion_tokens": 638,
+    "total_tokens": 3463,
+    "cost": 0.0021781,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0021781,
+      "upstream_inference_prompt_cost": 0.0014125,
+      "upstream_inference_completions_cost": 0.0007656
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 26,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "openrouter_generation_id": "gen-1786683060-6JbBtlHUr5EDTsKNuX0y",
+  "resolved_model": "thinkingmachines/inkling-small",
+  "request_body_settings": {
+    "temperature": 0.2,
+    "reasoning": {
+      "exclude": true,
+      "effort": "minimal"
+    },
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "max_completion_tokens": null,
+    "structured_request_mode": "tool_call",
+    "response_format": null,
+    "tools": [
+      "submit_drawing"
+    ],
+    "tool_choice": "submit_drawing",
+    "stream": false
+  },
+  "provider_attempt": 1,
+  "provider_retry_policy": {
+    "retry_provider_errors": true,
+    "max_provider_retries": 1
+  },
+  "recommended_command_budget": 30,
+  "over_recommended_command_budget": false,
+  "command_budget_delta": -15,
+  "runner_concurrency": 3,
+  "request_settings": {
+    "temperature": 0.2,
+    "reasoning": {
+      "exclude": true,
+      "effort": "minimal"
+    },
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "structured_request_mode": "tool_call",
+    "response_format": null,
+    "tools": [
+      "submit_drawing"
+    ],
+    "tool_choice": "submit_drawing",
+    "require_parameters": true,
+    "stream": false
+  },
+  "renderer": {
+    "path": "runner/render-commands.mjs",
+    "engine": "sharp_svg_to_png",
+    "output": "final.png"
+  },
+  "artifacts": [
+    "request.json",
+    "raw-response.json",
+    "commands.json",
+    "final.png",
+    "metadata.json"
+  ],
+  "command_count": 15,
+  "drawing_budget": {
+    "recommended_max_commands": 30,
+    "min_points_per_command": 2,
+    "recommended_max_points_per_command": 8
+  },
+  "canvas": {
+    "width": 1205,
+    "height": 1448,
+    "background": "#f7f3ef"
+  }
+}

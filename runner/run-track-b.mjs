@@ -298,7 +298,7 @@ async function buildRequestBody(model) {
       }
     ];
 
-    if (supportsParameter(supported, "tool_choice")) {
+    if (!model.omit_tool_choice && supportsParameter(supported, "tool_choice")) {
       body.tool_choice = {
         type: "function",
         function: {
@@ -312,7 +312,9 @@ async function buildRequestBody(model) {
     body.temperature = Number(args.temperature ?? runConfig.request_settings.temperature);
   }
 
-  addReasoningSettings(body, supported);
+  if (!model.omit_reasoning) {
+    addReasoningSettings(body, supported);
+  }
 
   if (supportsParameter(supported, "max_tokens")) {
     body.max_tokens = Number(args["max-tokens"] ?? runConfig.request_settings.max_tokens);

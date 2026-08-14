@@ -1,0 +1,12 @@
+{
+  "runId": "official-v0.1-incremental-2026-08-13-major-batch",
+  "concurrency": 1,
+  "results": [
+    {
+      "model": "bytedance-seed/seed-2.0-code",
+      "status": "completed",
+      "commandCount": 27,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/bytedance-seed__seed-2.0-code/official-v0.1-incremental-2026-08-13-major-batch"
+    }
+  ]
+}

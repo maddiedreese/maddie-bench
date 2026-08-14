@@ -397,6 +397,64 @@
       "provider": "openrouter",
       "family": "Thinking Machines",
       "status": "planned"
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "provider": "openrouter",
+      "family": "Google",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "provider": "openrouter",
+      "family": "Meta",
+      "status": "planned"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "provider": "openrouter",
+      "family": "Meta",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "provider": "openrouter",
+      "family": "ByteDance",
+      "status": "planned",
+      "omit_reasoning": true
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "provider": "openrouter",
+      "family": "ByteDance",
+      "status": "planned",
+      "request_mode": "tool_call",
+      "omit_tool_choice": true
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "provider": "openrouter",
+      "family": "Thinking Machines",
+      "status": "planned",
+      "request_mode": "tool_call"
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "provider": "openrouter",
+      "family": "Sakana",
+      "status": "planned"
     }
   ]
 }

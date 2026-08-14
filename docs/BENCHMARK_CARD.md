@@ -8,7 +8,7 @@ maddie-bench
 
 Track B v0.1
 
-Last updated: 2026-07-26
+Last updated: 2026-08-13
 
 ## Task
 
@@ -47,7 +47,7 @@ The locked reference image is stored in the repository at `app/public/reference/
 
 ## Current Model Set
 
-See `runner/models.track-b.json`. The current Track B v0.1 registry has 60 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, and the 2026-07-26 Claude Opus 5 insertion.
+See `runner/models.track-b.json`. The current Track B v0.1 registry has 69 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, and the 2026-08-13 major-model insertion batch.
 
 ## Exclusions
 
@@ -58,6 +58,10 @@ Z.ai vision models are excluded from Track B v0.1 because OpenRouter returned no
 `qwen/qwen3-vl-30b-a3b-thinking` is excluded from Track B v0.1 because OpenRouter returned a provider error for the official image plus structured-output request during compact protocol preflight.
 
 `bytedance/ui-tars-1.5-7b` is excluded from Track B v0.1 because OpenRouter's upstream Parasail route repeatedly returned 429 provider rate-limit errors during official-run retries, so the route was provider unavailable.
+
+`bytedance-seed/seed-2-1-turbo` remains in the 2026-08-13 batch audit trail but is unranked because the official OpenRouter response exhausted the completion budget in hidden reasoning and returned no valid drawing content.
+
+`sakana/sakana-namazu` remains in the 2026-08-13 batch audit trail but is unranked because OpenRouter returned no available provider route under the current privacy/data policy.
 
 ## Planned Metrics
 

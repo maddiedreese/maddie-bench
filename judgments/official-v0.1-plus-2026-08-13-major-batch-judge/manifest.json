@@ -1,0 +1,27 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "judgment_run_id": "official-v0.1-plus-2026-08-13-major-batch-judge",
+  "created_at": "2026-08-14T04:58:30.776Z",
+  "base_judgment_source": "judgments/official-v0.1-plus-2026-07-26-opus-5-judge/pairwise.json",
+  "incremental_manifest": "judgments/official-v0.1-incremental-2026-08-13-major-batch-anchor-manifest.json",
+  "failed_unranked": [
+    {
+      "model": "bytedance-seed/seed-2-1-turbo",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch",
+      "status": "failed",
+      "reason": "OpenRouter response exhausted the completion budget in reasoning/length finish without valid content."
+    },
+    {
+      "model": "sakana/sakana-namazu",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch",
+      "status": "api_error",
+      "reason": "OpenRouter returned provider route unavailable under the current privacy/data policy."
+    }
+  ],
+  "base_judgments": 3798,
+  "incremental_judgments": 420,
+  "total_judgments": 4218,
+  "incremental_judging_cost_usd": 6.271783
+}

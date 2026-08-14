@@ -56,6 +56,42 @@
     {
       "model": "thinkingmachines/inkling",
       "run_id": "official-v0.1-incremental-2026-07-17-inkling"
+    },
+    {
+      "model": "google/gemini-3.7-flash",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "x-ai/grok-4.6",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "meta/muse-spark-1.2",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "meta/muse-glimmer-30b",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "qwen/qwen3.8-max",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "bytedance-seed/seed-2-1-turbo",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "bytedance-seed/seed-2.0-code",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "thinkingmachines/inkling-small",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "sakana/sakana-namazu",
+      "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
     }
   ]
 }
