@@ -8,7 +8,7 @@ maddie-bench
 
 Track B v0.1
 
-Last updated: 2026-08-13
+Last updated: 2026-09-01
 
 ## Task
 
@@ -47,7 +47,7 @@ The locked reference image is stored in the repository at `app/public/reference/
 
 ## Current Model Set
 
-See `runner/models.track-b.json`. The current Track B v0.1 registry has 69 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, and the 2026-08-13 major-model insertion batch.
+See `runner/models.track-b.json`. The current Track B v0.1 registry has 75 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, and the 2026-09-01 Track B insertion batch.
 
 ## Exclusions
 
@@ -62,6 +62,10 @@ Z.ai vision models are excluded from Track B v0.1 because OpenRouter returned no
 `bytedance-seed/seed-2-1-turbo` remains in the 2026-08-13 batch audit trail but is unranked because the official OpenRouter response exhausted the completion budget in hidden reasoning and returned no valid drawing content.
 
 `sakana/sakana-namazu` remains in the 2026-08-13 batch audit trail but is unranked because OpenRouter returned no available provider route under the current privacy/data policy.
+
+`meta/muse-spark-1.2-contributor` remains in the 2026-09-01 batch audit trail but is unranked because OpenRouter returned no endpoint matching the benchmark's guardrail and data-policy constraints.
+
+`deepseek/deepseek-v4-flash-vision-exp` remains in the 2026-09-01 batch audit trail but is unranked because the official attempt returned malformed JSON.
 
 ## Planned Metrics
 

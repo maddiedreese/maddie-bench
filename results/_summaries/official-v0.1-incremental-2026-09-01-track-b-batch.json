@@ -1,0 +1,42 @@
+{
+  "runId": "official-v0.1-incremental-2026-09-01-track-b-batch",
+  "concurrency": 4,
+  "results": [
+    {
+      "model": "anthropic/claude-fable-5.1",
+      "status": "completed",
+      "commandCount": 30,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/anthropic__claude-fable-5.1/official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "status": "completed",
+      "commandCount": 19,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/qwen__qwen3.8-flash/official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "status": "completed",
+      "commandCount": 25,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/qwen__qwen3.8-27b/official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "status": "completed",
+      "commandCount": 24,
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/z-ai__glm-5.3-flash/official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "meta/muse-spark-1.2-contributor",
+      "status": "api_error",
+      "error": "OpenRouter request failed for meta/muse-spark-1.2-contributor: 404 {\"error\":{\"message\":\"No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy\",\"code\":404}}",
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/meta__muse-spark-1.2-contributor/official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-vision-exp",
+      "status": "failed",
+      "error": "Expected ',' or ']' after array element in JSON at position 273 (line 1 column 274)",
+      "outputDir": "/Users/maddiedreese/Documents/Codex/2026-06-29/how-to-officially-create-a-benchmark/results/deepseek__deepseek-v4-flash-vision-exp/official-v0.1-incremental-2026-09-01-track-b-batch"
+    }
+  ]
+}

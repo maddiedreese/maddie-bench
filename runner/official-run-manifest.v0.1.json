@@ -92,6 +92,30 @@
     {
       "model": "sakana/sakana-namazu",
       "run_id": "official-v0.1-incremental-2026-08-13-major-batch"
+    },
+    {
+      "model": "anthropic/claude-fable-5.1",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "meta/muse-spark-1.2-contributor",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-vision-exp",
+      "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
     }
   ]
 }

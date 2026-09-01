@@ -1,0 +1,48 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "judgment_run_id": "official-v0.1-plus-2026-09-01-track-b-batch-judge",
+  "created_at": "2026-09-01T19:02:31.205Z",
+  "source_policy": "cumulative official v0.1 pairwise judgments plus September 1, 2026 incremental Track B insertion batch",
+  "base_judgment_source": "judgments/official-v0.1-plus-2026-08-13-major-batch-judge/pairwise.json",
+  "base_judgment_count": 4218,
+  "incremental_anchor_manifest": "judgments/official-v0.1-incremental-2026-09-01-track-b-batch-anchor-manifest.json",
+  "inserted_models": [
+    {
+      "model": "anthropic/claude-fable-5.1",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-anthropic__claude-fable-5.1-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-qwen__qwen3.8-flash-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-qwen__qwen3.8-27b-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-z-ai__glm-5.3-flash-judge",
+      "judgment_count": 60
+    }
+  ],
+  "unranked_attempts": [
+    {
+      "model": "meta/muse-spark-1.2-contributor",
+      "status": "api_error",
+      "reason": "OpenRouter returned no provider endpoint matching the current guardrail restrictions and data policy."
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-vision-exp",
+      "status": "failed",
+      "reason": "Model returned malformed JSON, which is recorded as a model-output failure under the official one-attempt policy."
+    }
+  ],
+  "incremental_judgment_count": 240,
+  "total_judgment_count": 4458,
+  "incremental_judging_cost_usd": 3.582922
+}

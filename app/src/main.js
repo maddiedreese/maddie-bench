@@ -52,7 +52,7 @@ app.innerHTML = `
       <div>
         <p class="date">Released</p>
         <h3>2026-06-29</h3>
-        <p>Last updated: <span id="lastUpdated">2026-08-13</span></p>
+        <p>Last updated: <span id="lastUpdated">2026-09-01</span></p>
       </div>
       <div>
         <p class="date">Citation</p>
@@ -96,7 +96,7 @@ app.innerHTML = `
         <article>
           <p class="date">Excluded</p>
           <h3>Preflight exclusions</h3>
-          <p>Z.ai vision models, openai/gpt-5.5-pro, qwen/qwen3-vl-30b-a3b-thinking, and bytedance/ui-tars-1.5-7b are excluded from Track B v0.1 because their OpenRouter routes were incompatible or provider unavailable. bytedance-seed/seed-2-1-turbo and sakana/sakana-namazu remain visible as unranked August 13 attempts.</p>
+          <p>Z.ai vision models, openai/gpt-5.5-pro, qwen/qwen3-vl-30b-a3b-thinking, and bytedance/ui-tars-1.5-7b are excluded from Track B v0.1 because their OpenRouter routes were incompatible or provider unavailable. bytedance-seed/seed-2-1-turbo, sakana/sakana-namazu, meta/muse-spark-1.2-contributor, and deepseek/deepseek-v4-flash-vision-exp remain visible as unranked audited attempts.</p>
         </article>
         <article>
           <p class="date">Failures</p>
@@ -385,7 +385,7 @@ npm run publish:results -- --run-manifest runner/official-run-manifest.v0.1.json
         <article>
           <p class="date">Versioning</p>
           <h3>New Rules, New Version</h3>
-          <p>Changing the prompt, reference image, renderer, judge panel, scoring method, or official model set requires a new benchmark version.</p>
+          <p>Changing the prompt, reference image, renderer, judge panel, scoring method, or protocol requires a new benchmark version. Newly eligible models may be added through the documented insertion policy.</p>
         </article>
         <article>
           <p class="date">Challenges</p>

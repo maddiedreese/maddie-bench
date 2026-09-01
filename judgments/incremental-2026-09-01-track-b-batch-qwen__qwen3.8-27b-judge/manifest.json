@@ -1,0 +1,44 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "judgment_run_id": "incremental-2026-09-01-track-b-batch-qwen__qwen3.8-27b-judge",
+  "generated_at": "2026-09-01T18:49:58.018Z",
+  "judge_config": "runner/judge-config.json",
+  "judge_config_sha256": "9f4fdc1988c51b913661cfcae45d6209ce35bd95d032aff21e54ed574ffb9eaa",
+  "judge_prompt": "prompts/judge-pairwise-v0.1.md",
+  "judge_prompt_sha256": "712c221787d94441185645bb55b61df2301debcf8e1c2d52423d70204676b0c4",
+  "reference_image": "app/public/reference/maddie-target.jpg",
+  "reference_sha256": "3c4b958ce5b88bba62c7de157537e3ba7be6f4e2e1c5b1f4f3435a8ba1237719",
+  "judge_panel": [
+    {
+      "label": "GPT",
+      "provider": "openrouter",
+      "model": "openai/gpt-5.5",
+      "mode": "blind_pairwise_image_preference",
+      "criterion": "Which rendered image better recreates Maddie's profile picture?"
+    },
+    {
+      "label": "Claude",
+      "provider": "openrouter",
+      "model": "anthropic/claude-opus-4.8",
+      "mode": "blind_pairwise_image_preference",
+      "criterion": "Which rendered image better recreates Maddie's profile picture?"
+    },
+    {
+      "label": "Gemini",
+      "provider": "openrouter",
+      "model": "google/gemini-3.5-flash",
+      "mode": "blind_pairwise_image_preference",
+      "criterion": "Which rendered image better recreates Maddie's profile picture?"
+    }
+  ],
+  "model_names_hidden_from_judge": true,
+  "pair_count": 20,
+  "concurrency": 4,
+  "expected_judgments": 60,
+  "resumed_judgments": 21,
+  "completed_judgments": 60,
+  "failed_judgments": 0,
+  "judgments": "judgments/incremental-2026-09-01-track-b-batch-qwen__qwen3.8-27b-judge/pairwise.json"
+}

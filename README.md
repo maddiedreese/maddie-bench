@@ -17,13 +17,13 @@ Public site target: <https://maddiedreese.com/maddie-bench>
 
 - Paint app scaffolded.
 - Reference image locked at `1205 x 1448`.
-- Track B model registry includes 69 planned OpenRouter models.
+- Track B model registry includes 75 planned OpenRouter models.
 - Benchmark docs, benchmark card, runbook, and deployment notes are in place.
 - Audit metadata tracking is implemented in the runner.
 - Pairwise Elo calculator is implemented.
 - Pairwise Elo judge runner is implemented.
 - Elo judge panel configured as `openai/gpt-5.5`, `anthropic/claude-opus-4.8`, and `google/gemini-3.5-flash` via OpenRouter.
-- Official v0.1 results are published, including the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, and the 2026-08-13 major-model insertion batch.
+- Official v0.1 results are published, including the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, and the 2026-09-01 Track B insertion batch.
 
 ## Commands
 

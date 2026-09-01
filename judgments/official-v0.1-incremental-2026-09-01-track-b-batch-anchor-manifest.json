@@ -1,0 +1,70 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "update_policy": "incremental_anchor_set",
+  "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch",
+  "inserted_models": [
+    "anthropic/claude-fable-5.1",
+    "qwen/qwen3.8-flash",
+    "qwen/qwen3.8-27b",
+    "z-ai/glm-5.3-flash"
+  ],
+  "unranked_attempts": [
+    {
+      "model": "meta/muse-spark-1.2-contributor",
+      "status": "api_error",
+      "reason": "OpenRouter returned no provider endpoint matching the current guardrail restrictions and data policy."
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash-vision-exp",
+      "status": "failed",
+      "reason": "Model returned malformed JSON, which is recorded as a model-output failure under the official one-attempt policy."
+    }
+  ],
+  "anchor_models": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-sol-pro",
+    "openai/gpt-5.6-luna-pro",
+    "sakana/fugu-ultra",
+    "moonshotai/kimi-k2.7-code",
+    "moonshotai/kimi-k2.5",
+    "openai/gpt-5.5",
+    "google/gemini-3.5-flash",
+    "anthropic/claude-fable-5",
+    "anthropic/claude-sonnet-5",
+    "x-ai/grok-4.5",
+    "openai/gpt-5",
+    "x-ai/grok-4.20",
+    "mistralai/mistral-large-2512",
+    "qwen/qwen3-vl-32b-instruct",
+    "mistralai/mistral-small-2603",
+    "qwen/qwen3-vl-8b-instruct",
+    "x-ai/grok-4.3",
+    "rekaai/reka-edge"
+  ],
+  "created_at": "2026-09-01T18:45:43.822Z",
+  "manifests": [
+    {
+      "model": "anthropic/claude-fable-5.1",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-anthropic__claude-fable-5.1-judge",
+      "run_manifest": "work/incremental-2026-09-01-track-b-batch-anthropic__claude-fable-5.1-runs.json"
+    },
+    {
+      "model": "qwen/qwen3.8-flash",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-qwen__qwen3.8-flash-judge",
+      "run_manifest": "work/incremental-2026-09-01-track-b-batch-qwen__qwen3.8-flash-runs.json"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-qwen__qwen3.8-27b-judge",
+      "run_manifest": "work/incremental-2026-09-01-track-b-batch-qwen__qwen3.8-27b-runs.json"
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "judgment_run_id": "incremental-2026-09-01-track-b-batch-z-ai__glm-5.3-flash-judge",
+      "run_manifest": "work/incremental-2026-09-01-track-b-batch-z-ai__glm-5.3-flash-runs.json"
+    }
+  ]
+}

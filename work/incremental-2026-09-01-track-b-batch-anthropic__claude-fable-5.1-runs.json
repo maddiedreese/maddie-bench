@@ -1,0 +1,107 @@
+[
+  {
+    "model": "anthropic/claude-fable-5.1",
+    "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch",
+    "outputDir": "results/anthropic__claude-fable-5.1/official-v0.1-incremental-2026-09-01-track-b-batch"
+  },
+  {
+    "model": "openai/gpt-5.6-sol",
+    "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+    "outputDir": "results/openai__gpt-5.6-sol/official-v0.1-incremental-2026-07-15-frontier-batch"
+  },
+  {
+    "model": "openai/gpt-5.6-terra",
+    "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+    "outputDir": "results/openai__gpt-5.6-terra/official-v0.1-incremental-2026-07-15-frontier-batch"
+  },
+  {
+    "model": "openai/gpt-5.6-sol-pro",
+    "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+    "outputDir": "results/openai__gpt-5.6-sol-pro/official-v0.1-incremental-2026-07-15-frontier-batch"
+  },
+  {
+    "model": "openai/gpt-5.6-luna-pro",
+    "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+    "outputDir": "results/openai__gpt-5.6-luna-pro/official-v0.1-incremental-2026-07-15-frontier-batch"
+  },
+  {
+    "model": "sakana/fugu-ultra",
+    "run_id": "official-v0.1",
+    "outputDir": "results/sakana__fugu-ultra/official-v0.1"
+  },
+  {
+    "model": "moonshotai/kimi-k2.7-code",
+    "run_id": "official-v0.1",
+    "outputDir": "results/moonshotai__kimi-k2.7-code/official-v0.1"
+  },
+  {
+    "model": "moonshotai/kimi-k2.5",
+    "run_id": "official-v0.1",
+    "outputDir": "results/moonshotai__kimi-k2.5/official-v0.1"
+  },
+  {
+    "model": "openai/gpt-5.5",
+    "run_id": "official-v0.1",
+    "outputDir": "results/openai__gpt-5.5/official-v0.1"
+  },
+  {
+    "model": "google/gemini-3.5-flash",
+    "run_id": "official-v0.1",
+    "outputDir": "results/google__gemini-3.5-flash/official-v0.1"
+  },
+  {
+    "model": "anthropic/claude-fable-5",
+    "run_id": "official-v0.1-incremental-2026-07-01-anthropic-5",
+    "outputDir": "results/anthropic__claude-fable-5/official-v0.1-incremental-2026-07-01-anthropic-5"
+  },
+  {
+    "model": "anthropic/claude-sonnet-5",
+    "run_id": "official-v0.1-incremental-2026-07-01-anthropic-5",
+    "outputDir": "results/anthropic__claude-sonnet-5/official-v0.1-incremental-2026-07-01-anthropic-5"
+  },
+  {
+    "model": "x-ai/grok-4.5",
+    "run_id": "official-v0.1-incremental-2026-07-15-frontier-batch",
+    "outputDir": "results/x-ai__grok-4.5/official-v0.1-incremental-2026-07-15-frontier-batch"
+  },
+  {
+    "model": "openai/gpt-5",
+    "run_id": "official-v0.1",
+    "outputDir": "results/openai__gpt-5/official-v0.1"
+  },
+  {
+    "model": "x-ai/grok-4.20",
+    "run_id": "official-v0.1",
+    "outputDir": "results/x-ai__grok-4.20/official-v0.1"
+  },
+  {
+    "model": "mistralai/mistral-large-2512",
+    "run_id": "official-v0.1",
+    "outputDir": "results/mistralai__mistral-large-2512/official-v0.1"
+  },
+  {
+    "model": "qwen/qwen3-vl-32b-instruct",
+    "run_id": "official-v0.1",
+    "outputDir": "results/qwen__qwen3-vl-32b-instruct/official-v0.1"
+  },
+  {
+    "model": "mistralai/mistral-small-2603",
+    "run_id": "official-v0.1",
+    "outputDir": "results/mistralai__mistral-small-2603/official-v0.1"
+  },
+  {
+    "model": "qwen/qwen3-vl-8b-instruct",
+    "run_id": "official-v0.1",
+    "outputDir": "results/qwen__qwen3-vl-8b-instruct/official-v0.1"
+  },
+  {
+    "model": "x-ai/grok-4.3",
+    "run_id": "official-v0.1",
+    "outputDir": "results/x-ai__grok-4.3/official-v0.1"
+  },
+  {
+    "model": "rekaai/reka-edge",
+    "run_id": "official-v0.1",
+    "outputDir": "results/rekaai__reka-edge/official-v0.1"
+  }
+]

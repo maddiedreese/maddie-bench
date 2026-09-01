@@ -455,6 +455,42 @@
       "provider": "openrouter",
       "family": "Sakana",
       "status": "planned"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "provider": "openrouter",
+      "family": "Z.ai",
+      "status": "planned"
+    },
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "provider": "openrouter",
+      "family": "Meta",
+      "status": "planned"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "provider": "openrouter",
+      "family": "DeepSeek",
+      "status": "planned"
     }
   ]
 }

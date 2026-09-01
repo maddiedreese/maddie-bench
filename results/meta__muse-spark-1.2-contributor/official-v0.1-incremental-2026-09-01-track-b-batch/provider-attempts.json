@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 1,
+    "completed_at": "2026-09-01T18:43:51.442Z",
+    "status": "api_error",
+    "error": "OpenRouter request failed for meta/muse-spark-1.2-contributor: 404 {\"error\":{\"message\":\"No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy\",\"code\":404}}"
+  },
+  {
+    "attempt": 2,
+    "completed_at": "2026-09-01T18:43:52.515Z",
+    "status": "api_error",
+    "error": "OpenRouter request failed for meta/muse-spark-1.2-contributor: 404 {\"error\":{\"message\":\"No endpoints available matching your guardrail restrictions and data policy. Configure: https://openrouter.ai/settings/privacy\",\"code\":404}}"
+  }
+]
