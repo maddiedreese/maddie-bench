@@ -1,0 +1,113 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "model": "openai/gpt-6-astra",
+  "provider": "openrouter",
+  "family": "OpenAI",
+  "prompt": "prompts/track-b-v0.1.md",
+  "reference_image": "app/public/reference/maddie-target.jpg",
+  "prompt_version": "track-b-v0.1",
+  "prompt_sha256": "07ba70602f86ac20daf459f392791ce48d81be255a7067de610f3a66072b783f",
+  "reference_sha256": "3c4b958ce5b88bba62c7de157537e3ba7be6f4e2e1c5b1f4f3435a8ba1237719",
+  "runner_sha256": "1631d6c7dafba605b6962a925485549c08a76f771ff11c38acc425b7981ba571",
+  "run_config": "runner/run-config.json",
+  "run_config_sha256": "dee8e5d5c981e609c9a358a116c2a941df47b3748107086568528c660b046638",
+  "official_attempts_per_model": 1,
+  "status": "completed",
+  "started_at": "2026-09-04T20:42:23.701Z",
+  "completed_at": "2026-09-04T20:42:50.207Z",
+  "raw_response_path": "raw-response.json",
+  "request_path": "request.json",
+  "cost_usd": 0,
+  "wall_time_seconds": 2.2273208749999998,
+  "usage": {
+    "prompt_tokens": 2627,
+    "completion_tokens": 1595,
+    "total_tokens": 4222,
+    "cost": 0,
+    "is_byok": true,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 2624,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.11258,
+      "upstream_inference_prompt_cost": 0.03283,
+      "upstream_inference_completions_cost": 0.07975
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "openrouter_generation_id": "gen-1788554544-YTbcXVrPRtbcXf8upPV7",
+  "resolved_model": "openai/gpt-6-astra",
+  "request_body_settings": {
+    "temperature": null,
+    "reasoning": {
+      "exclude": true,
+      "effort": "low"
+    },
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "max_completion_tokens": null,
+    "structured_request_mode": "json_schema",
+    "response_format": "json_schema",
+    "tools": null,
+    "tool_choice": null,
+    "stream": false
+  },
+  "provider_attempt": 1,
+  "provider_retry_policy": {
+    "retry_provider_errors": true,
+    "max_provider_retries": 3
+  },
+  "recommended_command_budget": 30,
+  "over_recommended_command_budget": true,
+  "command_budget_delta": 7,
+  "runner_concurrency": 1,
+  "request_settings": {
+    "temperature": null,
+    "reasoning": {
+      "exclude": true,
+      "effort": "low"
+    },
+    "reasoning_effort": null,
+    "include_reasoning": false,
+    "max_tokens": 8000,
+    "structured_request_mode": "json_schema",
+    "response_format": "json_schema",
+    "tools": null,
+    "tool_choice": null,
+    "require_parameters": true,
+    "stream": false
+  },
+  "renderer": {
+    "path": "runner/render-commands.mjs",
+    "engine": "sharp_svg_to_png",
+    "output": "final.png"
+  },
+  "artifacts": [
+    "request.json",
+    "raw-response.json",
+    "commands.json",
+    "final.png",
+    "metadata.json"
+  ],
+  "command_count": 37,
+  "drawing_budget": {
+    "recommended_max_commands": 30,
+    "min_points_per_command": 2,
+    "recommended_max_points_per_command": 8
+  },
+  "canvas": {
+    "width": 1205,
+    "height": 1448,
+    "background": "#f7f3ef"
+  }
+}

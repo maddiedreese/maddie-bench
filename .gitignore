@@ -3,6 +3,7 @@
 node_modules/
 app/node_modules/
 app/dist/
+experiments/results/
 work/
 results/_summaries/
 results/**/*

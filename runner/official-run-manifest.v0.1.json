@@ -116,6 +116,10 @@
     {
       "model": "deepseek/deepseek-v4-flash-vision-exp",
       "run_id": "official-v0.1-incremental-2026-09-01-track-b-batch"
+    },
+    {
+      "model": "openai/gpt-6-astra",
+      "run_id": "official-v0.1-incremental-2026-09-04-gpt-6-astra"
     }
   ]
 }

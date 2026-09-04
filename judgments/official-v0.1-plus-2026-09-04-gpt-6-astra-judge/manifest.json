@@ -1,0 +1,22 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "judgment_run_id": "official-v0.1-plus-2026-09-04-gpt-6-astra-judge",
+  "created_at": "2026-09-04T22:03:50.682Z",
+  "source_policy": "cumulative official v0.1 pairwise judgments plus September 4, 2026 GPT-6 Astra incremental insertion",
+  "base_judgment_source": "judgments/official-v0.1-plus-2026-09-01-track-b-batch-judge/pairwise.json",
+  "base_judgment_count": 4458,
+  "incremental_anchor_manifest": "judgments/official-v0.1-incremental-2026-09-04-gpt-6-astra-anchor-manifest.json",
+  "inserted_models": [
+    {
+      "model": "openai/gpt-6-astra",
+      "judgment_run_id": "incremental-2026-09-04-gpt-6-astra-judge",
+      "judgment_count": 60
+    }
+  ],
+  "unranked_attempts": [],
+  "incremental_judgment_count": 60,
+  "total_judgment_count": 4518,
+  "incremental_judging_cost_usd": 0.895033
+}

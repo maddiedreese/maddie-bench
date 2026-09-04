@@ -13,6 +13,7 @@
     "judge": "node runner/run-pairwise-judge.mjs",
     "publish:results": "node runner/publish-results.mjs",
     "render:sample": "node runner/render-commands.mjs --input runner/sample-commands.json --output work/sample-render.png",
+    "run:astra-free-rein": "node experiments/run-astra-free-rein.mjs",
     "run:track-b": "node runner/run-track-b.mjs",
     "scaffold:results": "node runner/scaffold-results.mjs",
     "sync:public-data": "node runner/sync-public-data.mjs",

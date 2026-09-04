@@ -1,0 +1,41 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "update_policy": "incremental_anchor_set",
+  "run_id": "official-v0.1-incremental-2026-09-04-gpt-6-astra",
+  "inserted_models": [
+    "openai/gpt-6-astra"
+  ],
+  "unranked_attempts": [],
+  "anchor_models": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-sol-pro",
+    "openai/gpt-5.6-luna-pro",
+    "sakana/fugu-ultra",
+    "moonshotai/kimi-k2.7-code",
+    "moonshotai/kimi-k2.5",
+    "openai/gpt-5.5",
+    "google/gemini-3.5-flash",
+    "anthropic/claude-fable-5",
+    "anthropic/claude-sonnet-5",
+    "x-ai/grok-4.5",
+    "openai/gpt-5",
+    "x-ai/grok-4.20",
+    "mistralai/mistral-large-2512",
+    "qwen/qwen3-vl-32b-instruct",
+    "mistralai/mistral-small-2603",
+    "qwen/qwen3-vl-8b-instruct",
+    "x-ai/grok-4.3",
+    "rekaai/reka-edge"
+  ],
+  "created_at": "2026-09-04T22:03:50.682Z",
+  "manifests": [
+    {
+      "model": "openai/gpt-6-astra",
+      "judgment_run_id": "incremental-2026-09-04-gpt-6-astra-judge",
+      "run_manifest": "work/incremental-2026-09-04-gpt-6-astra-runs.json"
+    }
+  ]
+}
