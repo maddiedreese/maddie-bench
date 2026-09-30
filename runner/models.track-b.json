@@ -37,6 +37,133 @@
   ],
   "models": [
     {
+      "id": "openai/gpt-6.1-sol-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "provider": "openrouter",
+      "family": "OpenAI",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned",
+      "omit_temperature": true
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "provider": "openrouter",
+      "family": "Anthropic",
+      "status": "planned"
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "provider": "openrouter",
+      "family": "xAI",
+      "status": "planned"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "provider": "openrouter",
+      "family": "DeepSeek",
+      "status": "planned"
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "provider": "openrouter",
+      "family": "Qwen",
+      "status": "planned"
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "provider": "openrouter",
+      "family": "Sakana",
+      "status": "planned"
+    },
+    {
+      "id": "sakana/fugu-max",
+      "provider": "openrouter",
+      "family": "Sakana",
+      "status": "planned"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "provider": "openrouter",
+      "family": "Xiaomi",
+      "status": "planned"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "provider": "openrouter",
+      "family": "Xiaomi",
+      "status": "planned"
+    },
+    {
+      "id": "cohere/command-a-plus",
+      "provider": "openrouter",
+      "family": "Cohere",
+      "status": "planned"
+    },
+    {
+      "id": "fireworks/ember-1",
+      "provider": "openrouter",
+      "family": "Fireworks",
+      "status": "planned"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "provider": "openrouter",
+      "family": "InclusionAI",
+      "status": "planned"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "provider": "openrouter",
+      "family": "Nex AGI",
+      "status": "planned"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "provider": "openrouter",
+      "family": "Nex AGI",
+      "status": "planned"
+    },
+    {
       "id": "openai/gpt-6-astra",
       "provider": "openrouter",
       "family": "OpenAI",

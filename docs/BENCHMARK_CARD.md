@@ -8,7 +8,7 @@ maddie-bench
 
 Track B v0.1
 
-Last updated: 2026-09-04
+Last updated: 2026-09-30
 
 ## Task
 
@@ -47,7 +47,7 @@ The locked reference image is stored in the repository at `app/public/reference/
 
 ## Current Model Set
 
-See `runner/models.track-b.json`. The current Track B v0.1 registry has 76 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, the 2026-09-01 Track B insertion batch, and the 2026-09-04 GPT-6 Astra insertion.
+See `runner/models.track-b.json`. The current Track B v0.1 registry has 96 planned OpenRouter models, with official results published for the initial release plus the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark / Kimi K3 insertion batch, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, the 2026-09-01 Track B insertion batch, the 2026-09-04 GPT-6 Astra insertion, and the 2026-09-30 new-model insertion batch.
 
 ## Exclusions
 
@@ -66,6 +66,10 @@ Z.ai vision models are excluded from Track B v0.1 because OpenRouter returned no
 `meta/muse-spark-1.2-contributor` remains in the 2026-09-01 batch audit trail but is unranked because OpenRouter returned no endpoint matching the benchmark's guardrail and data-policy constraints.
 
 `deepseek/deepseek-v4-flash-vision-exp` remains in the 2026-09-01 batch audit trail but is unranked because the official attempt returned malformed JSON.
+
+`xiaomi/mimo-v2.6-flash` remains in the 2026-09-30 batch audit trail but is unranked because four commands in its official response had only one point each, below the renderer's two-point minimum.
+
+`nex-agi/nex-n2.5-pro` remains in the 2026-09-30 batch audit trail but is unranked because OpenRouter's provider connection terminated on both recorded attempts without returning a model response.
 
 ## Planned Metrics
 

@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1790785144-W2tw7KfVumJP4evWr5bK","object":"chat.completion","created":1790785145,"model":"google/gemini-3.5-flash","provider":"Google","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"STOP","message":{"role":"assistant","content":"{\n  \"winner\": \"a\",\n  \"confidence\": 0.95,\n  \"rationale\": \"Candidate A much better captures the key elements of the reference image, including the wide-open surprised eyes, the open mouth, the placement of the hands flat against the cheeks, and the dark hair framing the face. Candidate B is highly abstract, obscures the face with the hands, and does not capture the wide-eyed surprised expression.\"\n}","refusal":null,"reasoning_details":[{"type":"reasoning.text","signature":"AY89a19TPpKwWOBPeiU3BHTjTlJ+kP373Znbk0cM/wWZzaiYFc8dW0jY6Ss3Z5xSADkJ3UEY4zlkBz9gGq7U1+EmWa1fRogtCVGlPn7clXmeJg==","format":"google-gemini-v1","index":0}]}}],"usage":{"prompt_tokens":3586,"completion_tokens":96,"total_tokens":3682,"cost":0.006243,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.006243,"upstream_inference_prompt_cost":0.005379,"upstream_inference_completions_cost":0.000864},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}

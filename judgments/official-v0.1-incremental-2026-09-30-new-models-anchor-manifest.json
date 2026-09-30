@@ -1,0 +1,152 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "update_policy": "incremental_anchor_set",
+  "run_id": "official-v0.1-incremental-2026-09-30-new-models",
+  "inserted_models": [
+    "openai/gpt-6.1-sol-pro",
+    "openai/gpt-6.1-sol",
+    "openai/gpt-6-sol-pro",
+    "openai/gpt-6-sol",
+    "openai/gpt-6-luna-pro",
+    "openai/gpt-6-luna",
+    "anthropic/claude-opus-5.5",
+    "anthropic/claude-sonnet-5.5",
+    "x-ai/grok-4.7",
+    "deepseek/deepseek-v4.1-flash",
+    "qwen/qwen3.8-omni-flash",
+    "sakana/fugu-ultra-v2",
+    "sakana/fugu-max",
+    "xiaomi/mimo-v2.6-pro",
+    "cohere/command-a-plus",
+    "fireworks/ember-1",
+    "inclusionai/ling-3.0-flash-vl",
+    "nex-agi/nex-n2.5-mini"
+  ],
+  "unranked_attempts": [
+    {
+      "model": "xiaomi/mimo-v2.6-flash",
+      "reason": "Official response contains four one-point commands; renderer requires at least two points per command."
+    },
+    {
+      "model": "nex-agi/nex-n2.5-pro",
+      "reason": "OpenRouter provider connection terminated twice without a model response."
+    }
+  ],
+  "anchor_models": [
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-sol-pro",
+    "openai/gpt-5.6-luna-pro",
+    "sakana/fugu-ultra",
+    "moonshotai/kimi-k2.7-code",
+    "moonshotai/kimi-k2.5",
+    "openai/gpt-5.5",
+    "google/gemini-3.5-flash",
+    "anthropic/claude-fable-5",
+    "anthropic/claude-sonnet-5",
+    "x-ai/grok-4.5",
+    "openai/gpt-5",
+    "x-ai/grok-4.20",
+    "mistralai/mistral-large-2512",
+    "qwen/qwen3-vl-32b-instruct",
+    "mistralai/mistral-small-2603",
+    "qwen/qwen3-vl-8b-instruct",
+    "x-ai/grok-4.3",
+    "rekaai/reka-edge"
+  ],
+  "created_at": "2026-09-30T17:51:52.669Z",
+  "manifests": [
+    {
+      "model": "openai/gpt-6.1-sol-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6.1-sol-pro-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6.1-sol-pro-runs.json"
+    },
+    {
+      "model": "openai/gpt-6.1-sol",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6.1-sol-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6.1-sol-runs.json"
+    },
+    {
+      "model": "openai/gpt-6-sol-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-sol-pro-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6-sol-pro-runs.json"
+    },
+    {
+      "model": "openai/gpt-6-sol",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-sol-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6-sol-runs.json"
+    },
+    {
+      "model": "openai/gpt-6-luna-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-luna-pro-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6-luna-pro-runs.json"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-luna-judge",
+      "run_manifest": "work/incremental-2026-09-30-openai__gpt-6-luna-runs.json"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "judgment_run_id": "incremental-2026-09-30-new-models-anthropic__claude-opus-5.5-judge",
+      "run_manifest": "work/incremental-2026-09-30-anthropic__claude-opus-5.5-runs.json"
+    },
+    {
+      "model": "anthropic/claude-sonnet-5.5",
+      "judgment_run_id": "incremental-2026-09-30-new-models-anthropic__claude-sonnet-5.5-judge",
+      "run_manifest": "work/incremental-2026-09-30-anthropic__claude-sonnet-5.5-runs.json"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "judgment_run_id": "incremental-2026-09-30-new-models-x-ai__grok-4.7-judge",
+      "run_manifest": "work/incremental-2026-09-30-x-ai__grok-4.7-runs.json"
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "judgment_run_id": "incremental-2026-09-30-new-models-deepseek__deepseek-v4.1-flash-judge",
+      "run_manifest": "work/incremental-2026-09-30-deepseek__deepseek-v4.1-flash-runs.json"
+    },
+    {
+      "model": "qwen/qwen3.8-omni-flash",
+      "judgment_run_id": "incremental-2026-09-30-new-models-qwen__qwen3.8-omni-flash-judge",
+      "run_manifest": "work/incremental-2026-09-30-qwen__qwen3.8-omni-flash-runs.json"
+    },
+    {
+      "model": "sakana/fugu-ultra-v2",
+      "judgment_run_id": "incremental-2026-09-30-new-models-sakana__fugu-ultra-v2-judge",
+      "run_manifest": "work/incremental-2026-09-30-sakana__fugu-ultra-v2-runs.json"
+    },
+    {
+      "model": "sakana/fugu-max",
+      "judgment_run_id": "incremental-2026-09-30-new-models-sakana__fugu-max-judge",
+      "run_manifest": "work/incremental-2026-09-30-sakana__fugu-max-runs.json"
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-xiaomi__mimo-v2.6-pro-judge",
+      "run_manifest": "work/incremental-2026-09-30-xiaomi__mimo-v2.6-pro-runs.json"
+    },
+    {
+      "model": "cohere/command-a-plus",
+      "judgment_run_id": "incremental-2026-09-30-new-models-cohere__command-a-plus-judge",
+      "run_manifest": "work/incremental-2026-09-30-cohere__command-a-plus-runs.json"
+    },
+    {
+      "model": "fireworks/ember-1",
+      "judgment_run_id": "incremental-2026-09-30-new-models-fireworks__ember-1-judge",
+      "run_manifest": "work/incremental-2026-09-30-fireworks__ember-1-runs.json"
+    },
+    {
+      "model": "inclusionai/ling-3.0-flash-vl",
+      "judgment_run_id": "incremental-2026-09-30-new-models-inclusionai__ling-3.0-flash-vl-judge",
+      "run_manifest": "work/incremental-2026-09-30-inclusionai__ling-3.0-flash-vl-runs.json"
+    },
+    {
+      "model": "nex-agi/nex-n2.5-mini",
+      "judgment_run_id": "incremental-2026-09-30-new-models-nex-agi__nex-n2.5-mini-judge",
+      "run_manifest": "work/incremental-2026-09-30-nex-agi__nex-n2.5-mini-runs.json"
+    }
+  ]
+}

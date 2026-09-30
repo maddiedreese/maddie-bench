@@ -120,6 +120,86 @@
     {
       "model": "openai/gpt-6-astra",
       "run_id": "official-v0.1-incremental-2026-09-04-gpt-6-astra"
+    },
+    {
+      "model": "openai/gpt-6.1-sol-pro",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "openai/gpt-6.1-sol",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "openai/gpt-6-sol-pro",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "openai/gpt-6-sol",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "openai/gpt-6-luna-pro",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "anthropic/claude-sonnet-5.5",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "qwen/qwen3.8-omni-flash",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "sakana/fugu-ultra-v2",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "sakana/fugu-max",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-pro",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-flash",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "cohere/command-a-plus",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "fireworks/ember-1",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "inclusionai/ling-3.0-flash-vl",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "nex-agi/nex-n2.5-pro",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "nex-agi/nex-n2.5-mini",
+      "run_id": "official-v0.1-incremental-2026-09-30-new-models"
     }
   ]
 }

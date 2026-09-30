@@ -1,0 +1,7 @@
+
+         
+
+         
+
+         
+{"id":"gen-1790785761-yXpJuyy8XWg74VVOlYVW","object":"chat.completion","created":1790785761,"model":"google/gemini-3.5-flash","provider":"Google","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"STOP","message":{"role":"assistant","content":"{\n  \"winner\": \"a\",\n  \"confidence\": 0.95,\n  \"rationale\": \"Candidate A clearly depicts a stylized face with hands pressed against the cheeks, an open mouth, and a vertical curtain-like background, matching the composition and key elements of the reference image. Candidate B is highly abstract and does not resemble the reference image's composition or subject.\"\n}","refusal":null,"reasoning_details":[{"type":"reasoning.text","signature":"AY89a1+FwKtNYChqsoikuPLpuIomCiARau+6f2rYCFhiprRQEvrhz+AbcN7NzcipZVdfbDhk8wER8xGYgqUCmnSA2IPfC6844YDOn+3vn3XTXA==","format":"google-gemini-v1","index":0}]}}],"usage":{"prompt_tokens":3586,"completion_tokens":84,"total_tokens":3670,"cost":0.006135,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.006135,"upstream_inference_prompt_cost":0.005379,"upstream_inference_completions_cost":0.000756},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}

@@ -1,0 +1,89 @@
+{
+  "model": "openai/gpt-5.5",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a careful visual benchmark judge. Return valid JSON only."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "# maddie-bench Pairwise Judge Prompt v0.1\n\nYou are judging maddie-bench Track B outputs.\n\nYou will receive:\n\n1. Maddie's profile picture as the reference image.\n2. Candidate image A.\n3. Candidate image B.\n\nChoose which candidate better recreates Maddie's profile picture.\n\nJudge only visual resemblance to the reference image. Prefer the candidate that better captures:\n\n- surprised expression\n- large eyes\n- open mouth\n- hands pressed against cheeks\n- dark hair around the face\n- soft grayscale or sepia look\n- vertical curtain-like background\n- overall composition and proportions\n\nDo not reward text labels, signatures, or explanations inside the image.\n\nReturn only JSON:\n\n```json\n{\n  \"winner\": \"a\",\n  \"confidence\": 0.74,\n  \"rationale\": \"A better captures the face and hand placement.\"\n}\n```\n\nUse `\"winner\": \"tie\"` only when neither candidate is meaningfully better.\n"
+        },
+        {
+          "type": "text",
+          "text": "Reference image:"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "[base64 image omitted]"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Candidate image A:"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "[base64 image omitted]"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Candidate image B:"
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "[base64 image omitted]"
+          }
+        }
+      ]
+    }
+  ],
+  "provider": {
+    "require_parameters": true
+  },
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "maddie_bench_pairwise_judgment",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "winner": {
+            "type": "string",
+            "enum": [
+              "a",
+              "b",
+              "tie"
+            ]
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "winner",
+          "confidence",
+          "rationale"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "reasoning": {
+    "exclude": true,
+    "effort": "none"
+  },
+  "include_reasoning": false,
+  "max_tokens": 800
+}

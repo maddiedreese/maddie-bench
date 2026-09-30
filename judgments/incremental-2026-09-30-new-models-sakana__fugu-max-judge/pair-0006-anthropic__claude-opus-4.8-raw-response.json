@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1790785971-6oiA7EVbr7oCD46RO3WH","object":"chat.completion","created":1790785971,"model":"anthropic/claude-opus-4.8","provider":"Azure","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"end_turn","message":{"role":"assistant","content":"{\"winner\":\"a\",\"confidence\":0.65,\"rationale\":\"A better captures the surprised open mouth, visible wide eyes, hands pressed to cheeks, and dark hair framing the face with vertical grayscale background. B has closed eyes and less convincing expression.\"}","refusal":null}}],"usage":{"prompt_tokens":7510,"completion_tokens":91,"total_tokens":7601,"cost":0.039825,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.039825,"upstream_inference_prompt_cost":0.03755,"upstream_inference_completions_cost":0.002275},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}

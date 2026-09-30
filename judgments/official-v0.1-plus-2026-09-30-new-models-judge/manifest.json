@@ -1,0 +1,116 @@
+{
+  "benchmark": "maddie-bench",
+  "track": "structured-drawing",
+  "version": "0.1",
+  "judgment_run_id": "official-v0.1-plus-2026-09-30-new-models-judge",
+  "created_at": "2026-09-30T17:51:52.669Z",
+  "source_policy": "Cumulative official v0.1 pairwise judgments plus September 30, 2026 new-model incremental insertion batch",
+  "base_judgment_source": "judgments/official-v0.1-plus-2026-09-04-gpt-6-astra-judge/pairwise.json",
+  "base_judgment_count": 4518,
+  "incremental_anchor_manifest": "judgments/official-v0.1-incremental-2026-09-30-new-models-anchor-manifest.json",
+  "inserted_models": [
+    {
+      "model": "openai/gpt-6.1-sol-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6.1-sol-pro-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "openai/gpt-6.1-sol",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6.1-sol-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "openai/gpt-6-sol-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-sol-pro-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "openai/gpt-6-sol",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-sol-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "openai/gpt-6-luna-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-luna-pro-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "judgment_run_id": "incremental-2026-09-30-new-models-openai__gpt-6-luna-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "anthropic/claude-opus-5.5",
+      "judgment_run_id": "incremental-2026-09-30-new-models-anthropic__claude-opus-5.5-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "anthropic/claude-sonnet-5.5",
+      "judgment_run_id": "incremental-2026-09-30-new-models-anthropic__claude-sonnet-5.5-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "x-ai/grok-4.7",
+      "judgment_run_id": "incremental-2026-09-30-new-models-x-ai__grok-4.7-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "judgment_run_id": "incremental-2026-09-30-new-models-deepseek__deepseek-v4.1-flash-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "qwen/qwen3.8-omni-flash",
+      "judgment_run_id": "incremental-2026-09-30-new-models-qwen__qwen3.8-omni-flash-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "sakana/fugu-ultra-v2",
+      "judgment_run_id": "incremental-2026-09-30-new-models-sakana__fugu-ultra-v2-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "sakana/fugu-max",
+      "judgment_run_id": "incremental-2026-09-30-new-models-sakana__fugu-max-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-pro",
+      "judgment_run_id": "incremental-2026-09-30-new-models-xiaomi__mimo-v2.6-pro-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "cohere/command-a-plus",
+      "judgment_run_id": "incremental-2026-09-30-new-models-cohere__command-a-plus-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "fireworks/ember-1",
+      "judgment_run_id": "incremental-2026-09-30-new-models-fireworks__ember-1-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "inclusionai/ling-3.0-flash-vl",
+      "judgment_run_id": "incremental-2026-09-30-new-models-inclusionai__ling-3.0-flash-vl-judge",
+      "judgment_count": 60
+    },
+    {
+      "model": "nex-agi/nex-n2.5-mini",
+      "judgment_run_id": "incremental-2026-09-30-new-models-nex-agi__nex-n2.5-mini-judge",
+      "judgment_count": 60
+    }
+  ],
+  "unranked_attempts": [
+    {
+      "model": "xiaomi/mimo-v2.6-flash",
+      "reason": "Official response contains four one-point commands; renderer requires at least two points per command."
+    },
+    {
+      "model": "nex-agi/nex-n2.5-pro",
+      "reason": "OpenRouter provider connection terminated twice without a model response."
+    }
+  ],
+  "incremental_judgment_count": 1080,
+  "total_judgment_count": 5598,
+  "incremental_judging_cost_usd": 16.548493
+}

@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1790785682-0XSJbob78eNsScBKjr0Y","object":"chat.completion","created":1790785682,"model":"anthropic/claude-opus-4.8","provider":"Azure","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"end_turn","message":{"role":"assistant","content":"{\"winner\": \"a\", \"confidence\": 0.7, \"rationale\": \"A better captures the large eyes, hands pressed on cheeks, dark hair framing the face, open mouth, and grayscale look with vertical stripes. B's eyes are too small and hand placement less clear.\"}","refusal":null}}],"usage":{"prompt_tokens":7510,"completion_tokens":93,"total_tokens":7603,"cost":0.039875,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.039875,"upstream_inference_prompt_cost":0.03755,"upstream_inference_completions_cost":0.002325},"completion_tokens_details":{"reasoning_tokens":0,"image_tokens":0,"audio_tokens":0}}}
