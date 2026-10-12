@@ -69,13 +69,13 @@ Ties are allowed:
 
 ## Current Status
 
-The automated pairwise judge runner exists and writes judgment files. The Elo calculator consumes those judgment files. Official v0.1 Elo is published from the combined judgment source at `judgments/official-v0.1-plus-2026-09-30-new-models-judge/pairwise.json`, which includes the initial release, the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark and Kimi K3 insertions, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, the 2026-09-01 Track B insertion batch, the 2026-09-04 GPT-6 Astra insertion, and the 2026-09-30 new-model batch.
+The automated pairwise judge runner exists and writes judgment files. The Elo calculator consumes those judgment files. Official v0.1 Elo is published from the combined judgment source at `judgments/official-v0.1-plus-2026-10-12-muse-wonder-judge/pairwise.json`, which includes the initial release, the 2026-07-01 Anthropic 5 insertion, the 2026-07-15 frontier batch insertion, the 2026-07-16 Muse Spark and Kimi K3 insertions, the 2026-07-17 Inkling insertion, the 2026-07-26 Claude Opus 5 insertion, the 2026-08-13 major-model insertion batch, the 2026-09-01 Track B insertion batch, the 2026-09-04 GPT-6 Astra insertion, the 2026-09-30 new-model batch, and the 2026-10-12 Muse Wonder insertion.
 
 Run:
 
 ```bash
 npm run judge -- --run-id official-v0.1 --judgment-run-id official-v0.1-judge
-npm run elo -- --input judgments/official-v0.1-plus-2026-09-30-new-models-judge/pairwise.json --output leaderboard/elo.official-v0.1.json
+npm run elo -- --input judgments/official-v0.1-plus-2026-10-12-muse-wonder-judge/pairwise.json --output leaderboard/elo.official-v0.1.json
 ```
 
 ## Leaderboard Update Policy

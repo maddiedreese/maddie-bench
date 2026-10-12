@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-30T17:52:06.408Z",
+  "generated_at": "2026-10-12T19:18:44.817Z",
   "k_factor": 32,
-  "judgments": 5598,
+  "judgments": 5658,
   "leaderboard": [
     {
       "model": "openai/gpt-5.6-terra-pro",
@@ -15,8 +15,8 @@
     },
     {
       "model": "openai/gpt-5.6-luna-pro",
-      "elo": 1446,
-      "comparisons": 180
+      "elo": 1453,
+      "comparisons": 183
     },
     {
       "model": "openai/gpt-6.1-sol-pro",
@@ -25,18 +25,13 @@
     },
     {
       "model": "openai/gpt-5.6-terra",
-      "elo": 1409,
-      "comparisons": 180
+      "elo": 1417,
+      "comparisons": 183
     },
     {
       "model": "sakana/fugu-ultra",
-      "elo": 1404,
-      "comparisons": 261
-    },
-    {
-      "model": "openai/gpt-5.6-sol-pro",
-      "elo": 1397,
-      "comparisons": 180
+      "elo": 1412,
+      "comparisons": 264
     },
     {
       "model": "openai/gpt-6.1-sol",
@@ -44,9 +39,14 @@
       "comparisons": 60
     },
     {
+      "model": "openai/gpt-5.6-sol-pro",
+      "elo": 1374,
+      "comparisons": 183
+    },
+    {
       "model": "openai/gpt-5.6-sol",
-      "elo": 1362,
-      "comparisons": 180
+      "elo": 1372,
+      "comparisons": 183
     },
     {
       "model": "openai/gpt-5.6-luna",
@@ -102,6 +102,11 @@
       "model": "anthropic/claude-opus-4.8-fast",
       "elo": 1248,
       "comparisons": 132
+    },
+    {
+      "model": "meta/muse-wonder",
+      "elo": 1225,
+      "comparisons": 60
     },
     {
       "model": "qwen/qwen3.7-plus",
@@ -164,11 +169,6 @@
       "comparisons": 132
     },
     {
-      "model": "openai/gpt-5.5",
-      "elo": 1131,
-      "comparisons": 261
-    },
-    {
       "model": "openai/gpt-5.4-mini",
       "elo": 1130,
       "comparisons": 132
@@ -184,11 +184,6 @@
       "comparisons": 60
     },
     {
-      "model": "google/gemini-3.5-flash",
-      "elo": 1109,
-      "comparisons": 261
-    },
-    {
       "model": "meta/muse-spark-1.2",
       "elo": 1082,
       "comparisons": 60
@@ -197,6 +192,11 @@
       "model": "anthropic/claude-opus-4.8",
       "elo": 1080,
       "comparisons": 132
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "elo": 1077,
+      "comparisons": 264
     },
     {
       "model": "anthropic/claude-opus-5.5",
@@ -209,14 +209,14 @@
       "comparisons": 159
     },
     {
+      "model": "google/gemini-3.5-flash",
+      "elo": 1064,
+      "comparisons": 264
+    },
+    {
       "model": "anthropic/claude-sonnet-4.6",
       "elo": 1038,
       "comparisons": 138
-    },
-    {
-      "model": "anthropic/claude-fable-5",
-      "elo": 1012,
-      "comparisons": 177
     },
     {
       "model": "x-ai/grok-4.6",
@@ -234,14 +234,9 @@
       "comparisons": 60
     },
     {
-      "model": "x-ai/grok-4.5",
-      "elo": 983,
+      "model": "anthropic/claude-fable-5",
+      "elo": 984,
       "comparisons": 180
-    },
-    {
-      "model": "moonshotai/kimi-k2.7-code",
-      "elo": 977,
-      "comparisons": 234
     },
     {
       "model": "sakana/fugu-max",
@@ -262,6 +257,11 @@
       "model": "bytedance-seed/seed-2.0-code",
       "elo": 971,
       "comparisons": 60
+    },
+    {
+      "model": "x-ai/grok-4.5",
+      "elo": 962,
+      "comparisons": 183
     },
     {
       "model": "meta/muse-spark-1.1",
@@ -287,6 +287,11 @@
       "model": "anthropic/claude-opus-4.5",
       "elo": 943,
       "comparisons": 138
+    },
+    {
+      "model": "moonshotai/kimi-k2.7-code",
+      "elo": 935,
+      "comparisons": 237
     },
     {
       "model": "bytedance-seed/seed-2.0-lite",
@@ -345,8 +350,8 @@
     },
     {
       "model": "anthropic/claude-sonnet-5",
-      "elo": 824,
-      "comparisons": 177
+      "elo": 814,
+      "comparisons": 180
     },
     {
       "model": "openai/gpt-5-mini",
@@ -355,18 +360,18 @@
     },
     {
       "model": "moonshotai/kimi-k2.5",
-      "elo": 773,
-      "comparisons": 240
-    },
-    {
-      "model": "openai/gpt-5",
-      "elo": 747,
-      "comparisons": 261
+      "elo": 756,
+      "comparisons": 243
     },
     {
       "model": "google/gemini-3.1-flash-lite",
       "elo": 743,
       "comparisons": 132
+    },
+    {
+      "model": "openai/gpt-5",
+      "elo": 741,
+      "comparisons": 264
     },
     {
       "model": "qwen/qwen3.6-flash",
@@ -385,13 +390,13 @@
     },
     {
       "model": "x-ai/grok-4.20",
-      "elo": 642,
-      "comparisons": 255
+      "elo": 639,
+      "comparisons": 258
     },
     {
       "model": "mistralai/mistral-large-2512",
-      "elo": 619,
-      "comparisons": 234
+      "elo": 616,
+      "comparisons": 237
     },
     {
       "model": "cohere/command-a-plus",
@@ -400,8 +405,8 @@
     },
     {
       "model": "qwen/qwen3-vl-32b-instruct",
-      "elo": 594,
-      "comparisons": 234
+      "elo": 592,
+      "comparisons": 237
     },
     {
       "model": "thinkingmachines/inkling-small",
@@ -425,23 +430,23 @@
     },
     {
       "model": "qwen/qwen3-vl-8b-instruct",
-      "elo": 429,
-      "comparisons": 261
+      "elo": 428,
+      "comparisons": 264
     },
     {
       "model": "mistralai/mistral-small-2603",
-      "elo": 396,
-      "comparisons": 261
+      "elo": 395,
+      "comparisons": 264
     },
     {
       "model": "x-ai/grok-4.3",
-      "elo": 296,
-      "comparisons": 261
+      "elo": 295,
+      "comparisons": 264
     },
     {
       "model": "rekaai/reka-edge",
       "elo": 205,
-      "comparisons": 261
+      "comparisons": 264
     }
   ]
 }

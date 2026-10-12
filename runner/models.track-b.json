@@ -37,6 +37,12 @@
   ],
   "models": [
     {
+      "id": "meta/muse-wonder",
+      "provider": "openrouter",
+      "family": "Meta",
+      "status": "planned"
+    },
+    {
       "id": "openai/gpt-6.1-sol-pro",
       "provider": "openrouter",
       "family": "OpenAI",

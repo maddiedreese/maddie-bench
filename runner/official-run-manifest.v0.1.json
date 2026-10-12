@@ -200,6 +200,10 @@
     {
       "model": "nex-agi/nex-n2.5-mini",
       "run_id": "official-v0.1-incremental-2026-09-30-new-models"
+    },
+    {
+      "model": "meta/muse-wonder",
+      "run_id": "official-v0.1-incremental-2026-10-12-muse-wonder"
     }
   ]
 }
